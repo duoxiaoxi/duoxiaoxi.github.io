@@ -1,0 +1,1599 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>spring-mvc · 堕小烯笔记</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="堕小烯">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-treeview/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="mybatis.html" />
+    
+    
+    <link rel="prev" href="spring-cloud.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    readme
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    computer
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" >
+            
+                <span>
+            
+                    
+                    system
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="../system/linux.html">
+            
+                <a href="../system/linux.html">
+            
+                    
+                    linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <span>
+            
+                    
+                    service
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../service/mysql.html">
+            
+                <a href="../service/mysql.html">
+            
+                    
+                    mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../service/oracle.html">
+            
+                <a href="../service/oracle.html">
+            
+                    
+                    oracle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3" data-path="../service/redis.html">
+            
+                <a href="../service/redis.html">
+            
+                    
+                    redis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.4" data-path="../service/nginx.html">
+            
+                <a href="../service/nginx.html">
+            
+                    
+                    nginx
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.5" data-path="../service/active-mq.html">
+            
+                <a href="../service/active-mq.html">
+            
+                    
+                    active-mq
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.6" data-path="../service/rabbit-mq.html">
+            
+                <a href="../service/rabbit-mq.html">
+            
+                    
+                    rabbit-mq
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" >
+            
+                <span>
+            
+                    
+                    framework
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="spring.html">
+            
+                <a href="spring.html">
+            
+                    
+                    spring
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="spring-boot.html">
+            
+                <a href="spring-boot.html">
+            
+                    
+                    spring-boot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3" data-path="spring-cloud.html">
+            
+                <a href="spring-cloud.html">
+            
+                    
+                    spring-cloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3.4" data-path="spring-mvc.html">
+            
+                <a href="spring-mvc.html">
+            
+                    
+                    spring-mvc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.5" data-path="mybatis.html">
+            
+                <a href="mybatis.html">
+            
+                    
+                    mybatis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6" data-path="mybatis-plus.html">
+            
+                <a href="mybatis-plus.html">
+            
+                    
+                    mybatis-plus
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" >
+            
+                <span>
+            
+                    
+                    tools
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.1" data-path="../tools/git.html">
+            
+                <a href="../tools/git.html">
+            
+                    
+                    git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2" data-path="../tools/maven.html">
+            
+                <a href="../tools/maven.html">
+            
+                    
+                    maven
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.3" data-path="../tools/docker.html">
+            
+                <a href="../tools/docker.html">
+            
+                    
+                    docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.4" data-path="../tools/jenkins.html">
+            
+                <a href="../tools/jenkins.html">
+            
+                    
+                    jenkins
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" >
+            
+                <span>
+            
+                    
+                    other
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1" data-path="../other/thymeleaf.html">
+            
+                <a href="../other/thymeleaf.html">
+            
+                    
+                    thymeleaf
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    janpanese
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../janpanese/assignment.html">
+            
+                <a href="../../janpanese/assignment.html">
+            
+                    
+                    assignment
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    game
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../game/game-history.html">
+            
+                <a href="../../game/game-history.html">
+            
+                    
+                    game-history
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../game/game-company.html">
+            
+                <a href="../../game/game-company.html">
+            
+                    
+                    game-company
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    work
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../work/地址.html">
+            
+                <a href="../../work/地址.html">
+            
+                    
+                    地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../work/老铁建BUG修改记录.html">
+            
+                <a href="../../work/老铁建BUG修改记录.html">
+            
+                    
+                    老铁建BUG修改记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >spring-mvc</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div class="treeview__container"><div class="treeview__container-title"><span class="treeview__main-title">Treeview</span><span class="treeview__copyright">Copyright &#xA9; aleen42 all right reserved, powered by <a href="https://github.com/aleen42" target="_blank">aleen42</a></span></div><ul>
+<li><div><a href="#&#x7EC4;&#x4EF6;&#x4ECB;&#x7ECD;">&#x7EC4;&#x4EF6;&#x4ECB;&#x7ECD;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#&#x6E90;&#x7801;&#x8DDF;&#x8E2A;">&#x6E90;&#x7801;&#x8DDF;&#x8E2A;</a><i></i></div></li>
+<li><div><a href="#&#x524D;&#x7AEF;&#x63A7;&#x5236;&#x5668;">&#x524D;&#x7AEF;&#x63A7;&#x5236;&#x5668;</a><i></i></div></li>
+<li><div><a href="#&#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668;">&#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668;</a><i></i></div></li>
+<li><div><a href="#&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668;">&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668;</a><i></i></div></li>
+<li><div><a href="#&#x9ED8;&#x8BA4;&#x7684;hmha">&#x9ED8;&#x8BA4;&#x7684;HM&amp;HA</a><i></i></div></li>
+<li><div><a href="#&#x89C6;&#x56FE;&#x89E3;&#x6790;&#x5668;">&#x89C6;&#x56FE;&#x89E3;&#x6790;&#x5668; </a><i></i></div></li>
+<li><div><a href="#&#x6CE8;&#x89E3;&#x5F00;&#x53D1;">&#x6CE8;&#x89E3;&#x5F00;&#x53D1;</a><i></i></div></li>
+</ul></li>
+<li><div><a href="#&#x5E38;&#x7528;&#x6CE8;&#x89E3;">&#x5E38;&#x7528;&#x6CE8;&#x89E3;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#requestmapping">@RequestMapping</a><i></i></div></li>
+<li><div><a href="#pathvariable">@PathVariable</a><i></i></div></li>
+<li><div><a href="#requestparam">@RequestParam</a><i></i></div></li>
+<li><div><a href="#requestheader">@RequestHeader</a><i></i></div></li>
+<li><div><a href="#cookievalue">@CookieValue</a><i></i></div></li>
+<li><div><a href="#servletapi&#x83B7;&#x53D6;">ServletAPI&#x83B7;&#x53D6;</a><i></i></div></li>
+<li><div><a href="#&#x4E71;&#x7801;&#x95EE;&#x9898;">&#x4E71;&#x7801;&#x95EE;&#x9898;</a><i></i></div></li>
+<li><div><a href="#&#x6A21;&#x578B;&#x6570;&#x636E;">&#x6A21;&#x578B;&#x6570;&#x636E;</a><i></i></div></li>
+<li><div><a href="#sessionattribute">@SessionAttribute</a><i></i></div></li>
+<li><div><a href="#modelattribute">@ModelAttribute</a><i></i></div></li>
+<li><div><a href="#httpsessionrequiredexception">HttpSessionRequiredException</a><i></i></div></li>
+<li><div><a href="#&#x5904;&#x7406;&#x5668;&#x603B;&#x7ED3;">&#x5904;&#x7406;&#x5668;&#x603B;&#x7ED3;</a><i></i></div></li>
+</ul></li>
+<li><div><a href="#&#x914D;&#x7F6E;&#x6587;&#x4EF6;">&#x914D;&#x7F6E;&#x6587;&#x4EF6;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#mvcdefault-servlet-handler">&lt;mvc:default-servlet-handler&gt;</a><i></i></div></li>
+<li><div><a href="#mvcview-controller">&lt;mvc:view-controller&gt;</a><i></i></div></li>
+<li><div><a href="#mvcannotaion-driven">&lt;mvc:annotaion-driven&gt;</a><i></i></div></li>
+</ul></li>
+<li><div><a href="#json">JSON</a><i></i></div></li>
+<li><div><a href="#&#x4E0A;&#x4F20;">&#x4E0A;&#x4F20;</a><i></i></div></li>
+<li><div><a href="#&#x62E6;&#x622A;&#x5668;">&#x62E6;&#x622A;&#x5668;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#&#x81EA;&#x5B9A;&#x4E49;&#x62E6;&#x622A;&#x5668;">&#x81EA;&#x5B9A;&#x4E49;&#x62E6;&#x622A;&#x5668;</a><i></i></div></li>
+<li><div><a href="#&#x62E6;&#x622A;&#x5668;&#x6E90;&#x7801;">&#x62E6;&#x622A;&#x5668;&#x6E90;&#x7801;</a><i></i></div></li>
+<li><div><a href="#&#x62E6;&#x622A;&#x5668;&#x6E90;&#x7801;&#x603B;&#x7ED3;">&#x62E6;&#x622A;&#x5668;&#x6E90;&#x7801;&#x603B;&#x7ED3;</a><i></i></div></li>
+<li><div><a href="#&#x62E6;&#x622A;&#x5668;&#x6267;&#x884C;&#x987A;&#x5E8F;">&#x62E6;&#x622A;&#x5668;&#x6267;&#x884C;&#x987A;&#x5E8F;</a><i></i></div></li>
+</ul></li>
+<li><div><a href="#restful&#x98CE;&#x683C;">Restful&#x98CE;&#x683C;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#hiddenhttpmethodfilter">HiddenHttpMethodFilter</a><i></i></div></li>
+</ul></li>
+<li><div><a href="#&#x56FD;&#x9645;&#x5316;">&#x56FD;&#x9645;&#x5316;</a><i></i></div></li>
+</ul>
+</div>
+
+<h1 id="spring-mvc">Spring MVC</h1>
+<h2 id="&#x7EC4;&#x4EF6;&#x4ECB;&#x7ECD;">&#x7EC4;&#x4EF6;&#x4ECB;&#x7ECD;</h2>
+<p><code>&#x524D;&#x7AEF;&#x63A7;&#x5236;&#x5668;(DispatcherServlet)</code>: &#x8BF7;&#x6C42;&#x8FC7;&#x6765;&#x9996;&#x5148;&#x8BBF;&#x95EE;&#x7684;&#x5C31;&#x662F;&#x524D;&#x7AEF;&#x63A7;&#x5236;&#x5668;</p>
+<p><code>&#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668;(HandlerMapping)</code>: &#x524D;&#x7AEF;&#x63A7;&#x5236;&#x5668;&#x4F1A;&#x901A;&#x8FC7;&#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668;&#x6765;&#x67E5;&#x627E; &#x67E5;&#x627E;&#x7ED3;&#x679C;&#x662F;:</p>
+<p><code>&#x5904;&#x7406;&#x5668;&#x6267;&#x884C;&#x94FE;(HandlerExecutionChain)</code>: &#x91CC;&#x9762;&#x5305;&#x542B;&#x4E86;&#x5904;&#x7406;&#x5668;&#x548C;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x62E6;&#x622A;&#x5668;</p>
+<p><code>&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668;(HandlerAdapter)</code>: &#x5F97;&#x5230;&#x4E86;&#x5904;&#x7406;&#x5668; &#x5C31;&#x9700;&#x8981;&#x627E;&#x8FD9;&#x4E2A;&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x7684;&#x9002;&#x914D;&#x5668; &#x8FD9;&#x6837;&#x9002;&#x914D;&#x5668;&#x624D;&#x80FD;&#x53BB;&#x6267;&#x884C;&#x4ED6;</p>
+<p><code>ModelAndView</code>: &#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668;&#x6267;&#x884C;&#x5904;&#x7406;&#x5668;&#x7684;&#x7ED3;&#x679C;&#x5C31;&#x662F;ModelAndView</p>
+<p><code>&#x89C6;&#x56FE;&#x89E3;&#x6790;&#x5668;(ViewResolver)</code>: &#x89C6;&#x56FE;&#x89E3;&#x6790;&#x5668;&#x53EF;&#x4EE5;&#x771F;&#x6B63;&#x7684;&#x5C06;ModelAndView&#x89E3;&#x6790;&#x4E3A;View</p>
+<h3 id="&#x6E90;&#x7801;&#x8DDF;&#x8E2A;">&#x6E90;&#x7801;&#x8DDF;&#x8E2A;</h3>
+<p>&#x5F53;&#x6211;&#x4EEC;&#x7684;&#x8BF7;&#x6C42;&#x5230;&#x8FBE;<code>DispatcherServlet</code>&#x5C31;&#x4F1A;&#x53BB;&#x8C03;&#x7528;&#x5230;<code>doDispatch()</code>&#x65B9;&#x6CD5;:</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doDispatch</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse response)</span> <span class="hljs-keyword">throws</span> Exception </span>{
+    <span class="hljs-comment">// &#x901A;&#x8FC7;&#x81EA;&#x5DF1;&#x7684;&#x65B9;&#x6CD5;getHandler()&#x6765;&#x5C1D;&#x8BD5;&#x901A;&#x8FC7;request&#x83B7;&#x53D6;&#x5230;&#x5904;&#x7406;&#x5668;&#x6267;&#x884C;&#x94FE;(&#x5305;&#x542B;&#x4E86;&#x5904;&#x7406;&#x5668;)</span>
+    HandlerExecutionChain mappedHandler = <span class="hljs-keyword">this</span>.getHandler(request);
+    <span class="hljs-comment">// &#x901A;&#x8FC7;&#x81EA;&#x5DF1;&#x7684;&#x65B9;&#x6CD5;getHandlerAdapeter()&#x6765;&#x5C1D;&#x8BD5;&#x83B7;&#x53D6;&#x53EF;&#x4EE5;&#x9002;&#x914D;&#x627E;&#x5230;&#x7684;&#x5904;&#x7406;&#x5668;&#x7684;&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668;</span>
+    HandlerAdapter ha = <span class="hljs-keyword">this</span>.getHandlerAdapter(mappedHandler.getHandler());
+    <span class="hljs-comment">// &#x901A;&#x8FC7;&#x521A;&#x5230;&#x627E;&#x5230;&#x7684;&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668; &#x8BA9;&#x5B83;&#x53BB;&#x6267;&#x884C;&#x6211;&#x4EEC;&#x7684;&#x5904;&#x7406;&#x5668;... &#x5F97;&#x5230;&#x6A21;&#x578B;&amp;&#x89C6;&#x56FE;</span>
+    ModelAndView mv = ha.handle(request, response, mappedHandler.getHandler());
+}
+</code></pre>
+<p><code>this.getHandler(HttpServletRequest request)</code></p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">protected</span> HandlerExecutionChain <span class="hljs-title">getHandler</span><span class="hljs-params">(HttpServletRequest request)</span> <span class="hljs-keyword">throws</span> Exception </span>{
+        <span class="hljs-comment">// &#x4F9D;&#x6B21;&#x904D;&#x5386;&#x6240;&#x6709;&#x7684;&#x6620;&#x5C04;&#x5668; &#x5C1D;&#x8BD5;&#x5979;&#x4EEC;&#x83B7;&#x53D6;&#x5230;&#x5904;&#x7406;&#x5668;&#x6267;&#x884C;&#x94FE; &#x4E00;&#x65E6;&#x67D0;&#x4E2A;&#x83B7;&#x53D6;&#x6210;&#x529F; &#x7ACB;&#x5373;&#x8FD4;&#x56DE;</span>
+        <span class="hljs-keyword">for</span> (HandlerMapping hm : <span class="hljs-keyword">this</span>.handlerMappings) {
+            HandlerExecutionChain handler = hm.getHandler(request);
+            <span class="hljs-keyword">if</span> (handler != <span class="hljs-keyword">null</span>) {
+                <span class="hljs-keyword">return</span> handler;
+            }
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>;
+    }
+}
+</code></pre>
+<p><code>this.getHandlerAdapeter(Object handler)</code></p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">protected</span> HandlerAdapter <span class="hljs-title">getHandlerAdapter</span><span class="hljs-params">(Object handler)</span> <span class="hljs-keyword">throws</span> ServletException </span>{
+    <span class="hljs-comment">// &#x4F9D;&#x6B21;&#x904D;&#x5386;&#x6240;&#x6709;&#x7684;&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668; &#x8C03;&#x7528;supports()&#x65B9;&#x6CD5;&#x5224;&#x65AD;&#x662F;&#x5426;&#x9002;&#x914D;&#x6307;&#x5B9A;&#x7684;&#x5904;&#x7406;&#x5668; &#x4E00;&#x65E6;&#x9002;&#x914D;&#x7ACB;&#x5373;&#x8FD4;&#x56DE;</span>
+    <span class="hljs-keyword">for</span> (HandlerAdapter ha : <span class="hljs-keyword">this</span>.handlerAdapters) {
+        <span class="hljs-keyword">if</span> (ha.supports(handler)) {
+            <span class="hljs-keyword">return</span> ha;
+        }
+    }
+    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> ServletException(<span class="hljs-string">&quot;...&quot;</span>);        <span class="hljs-comment">// &#x6CA1;&#x6709;&#x627E;&#x5230;&#x5C31;&#x629B;&#x51FA;&#x5F02;&#x5E38;</span>
+}
+</code></pre>
+<h3 id="&#x524D;&#x7AEF;&#x63A7;&#x5236;&#x5668;">&#x524D;&#x7AEF;&#x63A7;&#x5236;&#x5668;</h3>
+<pre><code class="lang-xml"><span class="hljs-comment">&lt;!-- &#x914D;&#x7F6E;&#x524D;&#x7AEF;&#x63A7;&#x5236;&#x5668; &#x6240;&#x6709;&#x7684;&#x8BF7;&#x6C42;&#x90FD;&#x4F1A;&#x7ECF;&#x8FC7;&#x8FD9;&#x4E2A;Servlet &#x800C;&#x8FD9;&#x4E2A;Servlet&#x4F1A;&#x52A0;&#x8F7D;SpringMVC&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">servlet</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>dispatcherServlet<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-class</span>&gt;</span>org.springframework.web.servlet.DispatcherServlet<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-class</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">init-param</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">param-name</span>&gt;</span>contextConfigLocation<span class="hljs-tag">&lt;/<span class="hljs-name">param-name</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">param-value</span>&gt;</span>classpath:springmvc.xml<span class="hljs-tag">&lt;/<span class="hljs-name">param-value</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">init-param</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">load-on-startup</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">load-on-startup</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">servlet-mapping</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>dispatcherServlet<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-mapping</span>&gt;</span>
+</code></pre>
+<p>&#x9ED8;&#x8BA4;&#x52A0;&#x8F7D;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x662F; <code>/WEB-INF/ServletName-servlet.xml</code> &#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x521D;&#x59CB;&#x5316;&#x53C2;&#x6570;&#x6765;&#x6307;&#x5B9A;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;&#x4F4D;&#x7F6E;...</p>
+<blockquote>
+<p>&#x8DEF;&#x5F84;&#x95EE;&#x9898; DispatcherServlet &#x7684;&#x8DEF;&#x5F84;&#x5FC5;&#x987B;&#x914D;&#x7F6E;&#x6210;<code>/</code> &#x800C;&#x4E0D;&#x662F;==/<em>== /</em>&#x4F1A;&#x89E3;&#x6790;jsp &#x8FD9;&#x662F;8&#x5F73;&#x4E8D;&#x7684;</p>
+</blockquote>
+<h3 id="&#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668;">&#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668;</h3>
+<p><code>BeanNameUrlHandlerMapping</code>: &#x901A;&#x8FC7;bean&#x7684;name&#x6765;&#x8FDB;&#x884C;&#x6620;&#x5C04; &#x6839;&#x636E;url&#x627E;&#x5BF9;&#x5E94;&#x7684;name&#x5BF9;&#x5E94;&#x7684;bean</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;me.faene.controller.TestController&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;/test&quot;</span>/&gt;</span>
+
+<span class="hljs-comment">&lt;!-- &#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668; --&gt;</span>
+<span class="hljs-comment">&lt;!-- &#x987E;&#x540D;&#x601D;&#x4E49; &#x5C31;&#x662F;&#x5C06;bean&#x7684;id/name&#x4F5C;&#x4E3A;url&#x8FDB;&#x884C;&#x67E5;&#x627E; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping&quot;</span>/&gt;</span>
+</code></pre>
+<p><code>SimpleUrlHandlerMapping</code>: &#x901A;&#x8FC7;&#x7B80;&#x5355;&#x7684;&#x914D;&#x7F6E; &#x5C06;url&#x6620;&#x5C04;&#x5230;&#x5BF9;&#x5E94;&#x7684;bean(&#x4E5F;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x4E66;&#x5199;&#x7684;&#x5904;&#x7406;&#x5668;)</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;org.springframework.web.servlet.handler.SimpleUrlHandlerMapping&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;mappings&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">props</span>&gt;</span>
+            <span class="hljs-comment">&lt;!-- key:servletPath value:BeanID --&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">prop</span> <span class="hljs-attr">key</span>=<span class="hljs-string">&quot;/page1&quot;</span>&gt;</span>testController<span class="hljs-tag">&lt;/<span class="hljs-name">prop</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">prop</span> <span class="hljs-attr">key</span>=<span class="hljs-string">&quot;/page2&quot;</span>&gt;</span>testController<span class="hljs-tag">&lt;/<span class="hljs-name">prop</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">prop</span> <span class="hljs-attr">key</span>=<span class="hljs-string">&quot;/page3&quot;</span>&gt;</span>testController<span class="hljs-tag">&lt;/<span class="hljs-name">prop</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">props</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">property</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">bean</span>&gt;</span>
+</code></pre>
+<h3 id="&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668;">&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668;</h3>
+<p><code>HttpRequestHandlerAdaper</code>: &#x652F;&#x6301;&#x5904;&#x7406;&quot;&#x5B9E;&#x73B0;&#x4E86;HttpRequestHandler&#x63A5;&#x53E3;&quot;&#x7684;&#x5904;&#x7406;&#x5668;</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter&quot;</span>/&gt;</span>
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Test2Controller</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">HttpRequestHandler</span> </span>{
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">handleRequest</span><span class="hljs-params">(HttpServletRequest httpServletRequest,
+            HttpServletResponse httpServletResponse)</span> <span class="hljs-keyword">throws</span> ServletException, IOException </span>{
+    }
+}
+</code></pre>
+<p><code>SimpleControllerHandlerAdapter</code>: &#x652F;&#x6301;&#x5904;&#x7406;&quot;&#x5B9E;&#x73B0;&#x4E86;Controller&#x63A5;&#x53E3;&quot;&#x7684;&#x5904;&#x7406;&#x5668;</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter&quot;</span>/&gt;</span>
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TestController</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Controller</span> </span>{
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">handleRequest</span><span class="hljs-params">(
+        HttpServletRequest request, HttpServletResponse response)</span> <span class="hljs-keyword">throws</span> Exception </span>{
+    }
+}
+</code></pre>
+<h3 id="&#x9ED8;&#x8BA4;&#x7684;hmha">&#x9ED8;&#x8BA4;&#x7684;HM&amp;HA</h3>
+<p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x4E0D;&#x5728;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x914D;&#x7F6E;&#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668;&#x548C;&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668; &#x627E;&#x5230;&#x5982;&#x4E0B;&#x914D;&#x7F6E;&#x6587;&#x4EF6;:</p>
+<p><code>spring-webmvc.jar\org\springframework\web\servlet\DispatcherServlet.properties</code></p>
+<pre><code class="lang-properties">HandlerMapping=org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,\
+    org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping
+
+HandlerAdapter=org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,\
+    org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,\
+    org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter
+
+ViewResolver=org.springframework.web.servlet.view.InternalResourceViewResolver
+</code></pre>
+<p>&#x5728;Spring3.1&#x4E4B;&#x524D; &#x4F7F;&#x7528;&#x7684;&#x662F;==DefaultAnnotationHandlerMapping==+==AnnotationMethodHandlerAdapter==&#x4F5C;&#x4E3A;&#x6CE8;&#x89E3;&#x7684;&#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668;&#x548C;&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668; &#x4E0D;&#x8FC7;&#x5728;Spring3.1&#x4E4B;&#x540E;&#x5DF2;&#x7ECF;&#x4F7F;&#x7528;&#x4E86;&#x522B;&#x7684;&#x4E86;... &#x6240;&#x4EE5;&#x8BF4;&#x6211;&#x4EEC;&#x80AF;&#x5B9A;&#x8981;&#x7528;&#x65B0;&#x7684;==RequestMappingHandlerMapping==+==RequestMappingHandlerAdapter== &#x4EE5;&#x53CA;&#x4F7F;&#x7528;==&lt;mvc:annotation-driven&gt;==&#x53EF;&#x4EE5;&#x4EE3;&#x66FF;&#x914D;&#x7F6E;Bean &#x4EE5;&#x53CA;&#x52A0;&#x8F7D;&#x4E86;&#x5F88;&#x591A;&#x53C2;&#x6570;&#x7ED1;&#x5B9A;&#x65B9;&#x6CD5;</p>
+<h3 id="&#x89C6;&#x56FE;&#x89E3;&#x6790;&#x5668;">&#x89C6;&#x56FE;&#x89E3;&#x6790;&#x5668;</h3>
+<p>&#x5BF9;&#x4E8E;&#x6211;&#x4EEC;&#x7684;&#x5904;&#x7406;&#x5668;&#x65B9;&#x6CD5;(HandlerMethod)&#x7684;&#x8FD4;&#x56DE;&#x503C;String&#x7C7B;&#x578B;&#x800C;&#x8A00; &#x4EE3;&#x8868;&#x4E86;&#x8BF7;&#x6C42;&#x8F6C;&#x53D1;&#x6216;&#x8005;&#x91CD;&#x5B9A;&#x5411;&#x7684;&#x8DEF;&#x5F84; &#x5177;&#x4F53;&#x6709;&#x5982;&#x4E0B;&#x51E0;&#x79CD;&#x5199;&#x6CD5;:</p>
+<ul>
+<li><code>abc</code>: &#x8FD9;&#x79CD;&#x5199;&#x6CD5;&#x6700;&#x7EC8;&#x4F1A;&#x8FDB;&#x884C;&#x62FC;&#x63A5; ==&gt; <code>prefix</code>+<code>abc</code>+<code>suffix</code></li>
+<li><code>forward:abc</code>: &#x8FD9;&#x79CD;&#x4E0D;&#x4EE5;<code>/</code>&#x5F00;&#x5934;&#x7684;&#x8DEF;&#x5F84;&#x662F;&#x76F8;&#x5BF9;&#x4E8E;&#x5F53;&#x524D;HandlerMethod&#x6240;&#x5728;&#x7684;&#x865A;&#x62DF;&#x8DEF;&#x5F84; &#x4E5F;&#x5C31;&#x662F;@RequestMapping&#x4E2D;&#x4E66;&#x5199;&#x7684;&#x8DEF;&#x5F84;(&#x5305;&#x62EC;&#x6807;&#x6CE8;&#x5728;&#x7C7B;&#x4E0A;&#x7684;&#x6839;&#x8DEF;&#x5F84;)</li>
+<li><code>forward:/abc</code>: &#x8FD9;&#x79CD;&#x4EE5;<code>/</code>&#x5F00;&#x5934;&#x7684;&#x8DEF;&#x5F84;&#x662F;&#x76F8;&#x5BF9;&#x4E8E;&#x670D;&#x52A1;&#x5668;&#x8DEF;&#x5F84;&#x7684;&#x6839;&#x8DEF;&#x5F84; &#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x7D22;&#x5F15;&#x5230;/index.jsp</li>
+<li><code>redirect:abc</code> <code>redirect:/abc</code>: &#x4E0E;&#x4E0A;&#x9762;&#x4E24;&#x79CD;&#x4E00;&#x81F4; &#x53EA;&#x4E0D;&#x8FC7;&#x662F;&#x91CD;&#x5B9A;&#x5411; &#x6CE8;&#x610F;&#x4E0D;&#x8981;&#x91CD;&#x5B9A;&#x5411;&#x5230;WEB-INF&#x6587;&#x4EF6;&#x5939;&#x5185;&#x90E8; &#x5E76;&#x4E14;&#x8FD9;&#x91CC;&#x4E66;&#x5199;&#x7684;&#x4E5F;&#x662F;<strong>&#x670D;&#x52A1;&#x5668;&#x8DEF;&#x5F84;</strong> &#x800C;&#x4E0D;&#x662F;&#x6D4F;&#x89C8;&#x5668;&#x8DEF;&#x5F84;... &#x9700;&#x8981;&#x6CE8;&#x610F;</li>
+</ul>
+<pre><code class="lang-xml"><span class="hljs-comment">&lt;!-- &#x89C6;&#x56FE;&#x89E3;&#x6790;&#x5668; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;org.springframework.web.servlet.view.InternalResourceViewResolver&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;prefix&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;/WEB-INF/pages/&quot;</span>/&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;suffix&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;.jsp&quot;</span>/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">bean</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-comment">/*
+ - ctrls
+ - - ctrl1
+ - - ctrl2
+ - - ctrl3
+ - WEB-INF
+ - - pages
+ - - - page1.jsp
+ - - - page2.jsp
+ - index.jsp
+ */</span>
+<span class="hljs-meta">@Controller</span>
+<span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/ctrls&quot;</span>)
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">TestController</span> </span>{
+
+    <span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/ctrl1&quot;</span>)
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">ctrl1</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">// prefix + path + suffix =</span>
+        <span class="hljs-comment">// /WEB-INF/pages/ + ../pages/page1 + .jsp</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;../pages/page1&quot;</span>;
+    }
+
+    <span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/ctrl2&quot;</span>)
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">ctrl2</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">// ServletPath:/WEB-INF/pages/page1.jsp</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;forward:/WEB-INF/pages/page2.jsp&quot;</span>;
+    }
+
+    <span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/ctrl3&quot;</span>)
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">ctrl3</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">// &#x5F53;&#x524D;&#x8DEF;&#x5F84;: /ctrls</span>
+        <span class="hljs-comment">// &#x76F8;&#x5BF9;&#x8DEF;&#x5F84;: ../index.jsp</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;redirect:../index.jsp&quot;</span>;
+    }
+}
+</code></pre>
+<h3 id="&#x6CE8;&#x89E3;&#x5F00;&#x53D1;">&#x6CE8;&#x89E3;&#x5F00;&#x53D1;</h3>
+<p>&#x60F3;&#x8981;&#x8FDB;&#x884C;&#x6CE8;&#x89E3;&#x5F00;&#x53D1; &#x80AF;&#x5B9A;&#x8981;&#x53BB;&#x914D;&#x7F6E;&#x6CE8;&#x89E3;&#x7684;&#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668;&#x548C;&#x6CE8;&#x89E3;&#x7684;&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668; &#x6709;&#x4E24;&#x79CD;&#x65B9;&#x6CD5;:</p>
+<pre><code class="lang-xml"><span class="hljs-comment">&lt;!-- 1. &#x914D;&#x7F6E;&#x6CE8;&#x89E3;&#x7684;&#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668;&#x548C;&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping&quot;</span>/&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter&quot;</span>/&gt;</span>
+</code></pre>
+<pre><code class="lang-xml"><span class="hljs-comment">&lt;!-- 2. &#x76F8;&#x5F53;&#x4E8E;&#x914D;&#x7F6E;&#x4E86;&#x4E0A;&#x9762;&#x7684;&#x4E24;&#x4E2A; &#x5E76;&#x4E14;&#x6709;&#x65B0;&#x4E1C;&#x897F; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">mvc:annotation-driven</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">mvc:annotation-driven</span>&gt;</span>
+</code></pre>
+<p>&#x90A3;&#x4E48; &#x6CE8;&#x89E3;&#x7684;&#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668;&#x662F;&#x5982;&#x4F55;&#x6620;&#x5C04;&#x7684;&#x5462;? &#x6CE8;&#x89E3;&#x7684;&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668;&#x53C8;&#x662F;&#x600E;&#x4E48;&#x5904;&#x7406;&#x7684;&#x5462;?</p>
+<ul>
+<li>&#x6CE8;&#x89E3;&#x7684;&#x5904;&#x7406;&#x5668;<u>&#x6620;&#x5C04;&#x5668;</u>&#x4F1A;&#x53BB;SpringMVC&#x5BB9;&#x5668;&#x5F53;&#x4E2D;&#x68C0;&#x67E5;&#x88AB;<code>@Controller</code>&#x6CE8;&#x89E3;&#x6807;&#x6CE8;&#x7684;&#x7C7B; &#x518D;&#x67E5;&#x627E;&#x8FD9;&#x4E9B;&#x7C7B;&#x4E2D;&#x88AB;<code>@RequestMapping</code>&#x6807;&#x6CE8;&#x7684;&#x65B9;&#x6CD5; &#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x5C31;&#x662F;&#x5904;&#x7406;&#x5668;&#x4E86;</li>
+<li>&#x6CE8;&#x89E3;&#x7684;&#x5904;&#x7406;&#x5668;<u>&#x9002;&#x914D;&#x5668;</u>&#x4F1A;&#x6267;&#x884C;&#x627E;&#x5230;&#x7684;&#x65B9;&#x6CD5; &#x65E0;&#x8BBA;&#x901A;&#x8FC7;&#x4EC0;&#x4E48;&#x65B9;&#x6CD5;...</li>
+</ul>
+<p>&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x8BD5;&#x70B9;&#x662F;==&#x53BB;&#x5BB9;&#x5668;&#x4E2D;&#x5BFB;&#x627E;&#x88AB;@Controller&#x6CE8;&#x89E3;&#x6807;&#x6CE8;&#x7684;&#x7C7B;== &#x9996;&#x5148;&#x8981;&#x4FDD;&#x8BC1;&#x5728;&#x5BB9;&#x5668;&#x4E2D; &#x624D;&#x4F1A;&#x53BB;&#x627E; &#x8FD9;&#x610F;&#x5473;&#x7740;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;:</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;me.faene.controller.MyController&quot;</span>/&gt;</span>
+</code></pre>
+<p>&#x901A;&#x8FC7;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x6765;&#x4FDD;&#x8BC1;&#x6211;&#x4EEC;&#x7684;Controller&#x5728;&#x5BB9;&#x5668;&#x4E2D; &#x4F46;&#x662F;&#x65E2;&#x7136;&#x5DF2;&#x7ECF;&#x88AB;@Controller&#x6CE8;&#x89E3;&#x6807;&#x6CE8;&#x4E86; &#x4E3A;&#x4EC0;&#x4E48;&#x4E0D;&#x7528;&#x7EC4;&#x4EF6;&#x626B;&#x63CF;&#x5462;?</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">context:component-scan</span> <span class="hljs-attr">base-package</span>=<span class="hljs-string">&quot;me.faene.controller&quot;</span> <span class="hljs-attr">use-default-filters</span>=<span class="hljs-string">&quot;false&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">context:include-filter</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;annotation&quot;</span> <span class="hljs-attr">expression</span>=<span class="hljs-string">&quot;org.springframework.stereotype.Controller&quot;</span>/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">context:component-scan</span>&gt;</span>
+</code></pre>
+<h2 id="&#x5E38;&#x7528;&#x6CE8;&#x89E3;">&#x5E38;&#x7528;&#x6CE8;&#x89E3;</h2>
+<h3 id="requestmapping">@RequestMapping</h3>
+<p>&#x8FD9;&#x4E2A;&#x6CE8;&#x89E3;&#x7528;&#x6765;&#x786E;&#x5B9A;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#x8BF7;&#x6C42;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;&#x5230;&#x8FD9;&#x4E2A;&#x5904;&#x7406;&#x5668; &#x90FD;&#x662F;&#x901A;&#x8FC7;&#x8FD9;&#x4E2A;&#x6CE8;&#x89E3;&#x7684;&#x5C5E;&#x6027;&#x6765;&#x5B9E;&#x73B0;&#x7684;:</p>
+<ul>
+<li><code>value</code>: &#x6307;&#x5B9A;&#x8BBF;&#x95EE;&#x5904;&#x7406;&#x5668;&#x7684;ServletPath &#x652F;&#x6301;Ant&#x901A;&#x914D;&#x7B26;</li>
+</ul>
+<blockquote>
+<p>Ant&#x98CE;&#x683C;&#x7684;&#x901A;&#x914D;&#x7B26;&#x5982;&#x4E0B;:</p>
+<ul>
+<li><code>?</code>: &#x5339;&#x914D;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;</li>
+<li><code>*</code>: &#x5339;&#x914D;&#x4EFB;&#x610F;&#x4E2A;&#x5B57;&#x7B26;</li>
+<li><code>**</code>: &#x5339;&#x914D;&#x591A;&#x5C42;&#x8DEF;&#x5F84;</li>
+</ul>
+</blockquote>
+<ul>
+<li><code>method:RequestMethod[]</code>: &#x7528;&#x6765;&#x6307;&#x5B9A;&#x8BBF;&#x95EE;&#x65B9;&#x5F0F; &#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x591A;&#x79CD;</li>
+<li><code>params:String[]</code>: &#x7528;&#x6765;&#x6307;&#x5B9A;&#x8BF7;&#x6C42;&#x53C2;&#x6570; &#x652F;&#x6301;&#x57FA;&#x672C;&#x8868;&#x8FBE;&#x5F0F;</li>
+<li><code>headers:String[]</code>: &#x7528;&#x6765;&#x6307;&#x5B9A;&#x8BF7;&#x6C42;&#x5934; &#x652F;&#x6301;&#x57FA;&#x672C;&#x8868;&#x8FBE;&#x5F0F;</li>
+</ul>
+<blockquote>
+<p>&#x57FA;&#x672C;&#x8868;&#x8FBE;&#x5F0F;&#x5982;&#x4E0B;:</p>
+<ul>
+<li><code>key</code>: &#x5FC5;&#x987B;&#x542B;&#x6709;&#x6307;&#x5B9A;key&#x7684;&#x53C2;&#x6570;&#x6216;&#x8005;&#x5934;</li>
+<li><code>!key</code>: &#x4E0D;&#x80FD;&#x5305;&#x542B;&#x6307;&#x5B9A;key&#x7684;&#x53C2;&#x6570;&#x6216;&#x8005;&#x5934;</li>
+<li><code>key=value</code>: &#x5FC5;&#x987B;&#x5305;&#x542B;&#x6307;&#x5B9A;key&#x7684;&#x53C2;&#x6570;&#x6216;&#x8005;&#x5934; &#x5E76;&#x4E14;&#x5C5E;&#x6027;&#x5FC5;&#x987B;&#x4E3A;value</li>
+<li><code>key!=value</code>: &#x5305;&#x542B;&#x6307;&#x5B9A;key&#x7684;&#x5355;&#x6570;&#x6216;&#x8005;&#x5934; &#x5E76;&#x4E14;&#x5C5E;&#x6027;&#x4E0D;&#x80FD;&#x4E3A;value    &#x6216;&#x8005;    &#x4E0D;&#x5305;&#x542B;</li>
+</ul>
+</blockquote>
+<p>&#x793A;&#x4F8B;&#x4EE3;&#x7801;:</p>
+<pre><code class="lang-java"><span class="hljs-meta">@RequestMapping</span>(
+        value = <span class="hljs-string">&quot;/test/**/test&quot;</span>,
+        method = {RequestMethod.GET, RequestMethod.POST},
+        params = {<span class="hljs-string">&quot;a&quot;</span>, <span class="hljs-string">&quot;!b&quot;</span>, <span class="hljs-string">&quot;c=C&quot;</span>, <span class="hljs-string">&quot;d!=D&quot;</span>},
+        headers = {<span class="hljs-string">&quot;Host=localhost:8080&quot;</span>}
+)
+<span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">test</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ModelAndView(<span class="hljs-string">&quot;index&quot;</span>)
+            .addObject(<span class="hljs-string">&quot;var&quot;</span>, <span class="hljs-string">&quot;abc&quot;</span>);
+}
+</code></pre>
+<p>&#x53E6;&#x5916;&#x8FD9;&#x4E2A;&#x6CE8;&#x89E3;&#x53EF;&#x4EE5;&#x6807;&#x6CE8;&#x5728;&#x7C7B;&#x4E0A;&#x6216;&#x8005;&#x65B9;&#x6CD5;&#x4E0A; &#x5982;&#x679C;&#x6807;&#x6CE8;&#x5728;&#x4E86;&#x7C7B;&#x4E0A; &#x8868;&#x793A;&#x8FD9;&#x4E2A;&#x7C7B;&#x7684;&#x6240;&#x6709;&#x5904;&#x7406;&#x5668;&#x8BBF;&#x95EE;&#x65F6;&#x90FD;&#x8981;&#x91C7;&#x53D6;&#x6307;&#x5B9A;&#x7684;&#x524D;&#x7F00;:</p>
+<pre><code class="lang-java"><span class="hljs-meta">@Controller</span>
+<span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/test&quot;</span>)
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyController</span> </span>{
+    <span class="hljs-meta">@RequestMapping</span>(value = <span class="hljs-string">&quot;/test1&quot;</span>)        <span class="hljs-comment">// &#x6D4F;&#x89C8;&#x5668;&#x8BBF;&#x95EE;&#x8DEF;&#x5F84;: /test/test1</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">test</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>;
+    }
+}
+</code></pre>
+<p>&#x8FD9;&#x6837; &#x6211;&#x4EEC;&#x6D4F;&#x89C8;&#x5668;&#x8BF7;&#x6C42;&#x7684;ServletPath&#x5FC5;&#x987B;&#x662F;<strong>/test/test1</strong></p>
+<h3 id="pathvariable">@PathVariable</h3>
+<p>&#x8FD9;&#x4E2A;&#x6CE8;&#x89E3;&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x5230;&#x6211;&#x4EEC;&#x8BF7;&#x6C42;&#x7684;ServletPath&#x5F53;&#x4E2D;&#x7684;&#x76F8;&#x5173;&#x4FE1;&#x606F; &#x4F8B;&#x5982;:</p>
+<pre><code class="lang-java"><span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/test/{var1}/{var2}&quot;</span>)
+<span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">test</span><span class="hljs-params">(
+        @PathVariable(<span class="hljs-string">&quot;var1&quot;</span>)</span> Integer var1,
+        @<span class="hljs-title">PathVariable</span><span class="hljs-params">(<span class="hljs-string">&quot;var2&quot;</span>)</span> String var2
+) </span>{ <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ModelAndView(<span class="hljs-string">&quot;index&quot;</span>); }
+</code></pre>
+<h3 id="requestparam">@RequestParam</h3>
+<p>&#x8FD9;&#x4E2A;&#x6CE8;&#x89E3;&#x53EF;&#x4EE5;&#x5C06;&#x6211;&#x4EEC;&#x7684;&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#x83B7;&#x53D6;&#x5230;&#x5904;&#x7406;&#x5668;&#x65B9;&#x6CD5;&#x7684;&#x53C2;&#x6570;&#x5F53;&#x4E2D;:</p>
+<ul>
+<li><code>value</code>: &#x6307;&#x5B9A;&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#x7684;&#x540D;&#x79F0;</li>
+<li><code>required:boolean</code>: &#x6307;&#x5B9A;&#x662F;&#x5426;&#x5FC5;&#x987B;&#x63D0;&#x4F9B;&#x8BE5;&#x8BF7;&#x6C42;&#x53C2;&#x6570;</li>
+<li><code>defaultValue:String</code>: &#x6307;&#x5B9A;&#x9ED8;&#x8BA4;&#x503C;</li>
+</ul>
+<p>&#x793A;&#x4F8B;&#x4EE3;&#x7801;:</p>
+<pre><code class="lang-java"><span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/test&quot;</span>)
+<span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">test</span><span class="hljs-params">(
+        @RequestParam(value = <span class="hljs-string">&quot;username&quot;</span>, required = <span class="hljs-keyword">true</span>)</span> String username,
+        @<span class="hljs-title">RequestParam</span><span class="hljs-params">(value = <span class="hljs-string">&quot;password&quot;</span>, required = <span class="hljs-keyword">false</span>, defaultValue = <span class="hljs-string">&quot;12345&quot;</span>)</span> String password
+) </span>{
+    System.out.println(<span class="hljs-string">&quot;username = [&quot;</span> + username + <span class="hljs-string">&quot;], password = [&quot;</span> + password + <span class="hljs-string">&quot;]&quot;</span>);
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>;
+}
+</code></pre>
+<h3 id="requestheader">@RequestHeader</h3>
+<p>&#x540C;&#x7406;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E0A;&#x9762;&#x7684;&#x6CE8;&#x89E3;&#x6765;&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x5934; &#x8FD9;&#x4E2A;&#x6CE8;&#x89E3;&#x7684;&#x4E09;&#x4E2A;&#x5C5E;&#x6027;&#x548C;@RequestParam&#x4E5F;&#x4E00;&#x81F4;</p>
+<h3 id="cookievalue">@CookieValue</h3>
+<p>&#x540C;&#x7406;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E0A;&#x9762;&#x7684;&#x6CE8;&#x89E3;&#x6765;&#x83B7;&#x53D6;Cookie &#x8FD9;&#x4E2A;&#x6CE8;&#x89E3;&#x7684;&#x4E09;&#x4E2A;&#x5C5E;&#x6027;&#x548C;@RequestParam&#x4E5F;&#x4E00;&#x81F4;</p>
+<h3 id="servletapi&#x83B7;&#x53D6;">ServletAPI&#x83B7;&#x53D6;</h3>
+<p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x7684;&#x5904;&#x7406;&#x5668; &#x4E5F;&#x5C31;&#x662F;Controller&#x5F53;&#x4E2D;&#x7684;&#x65B9;&#x6CD5;&#x7684;&#x53C2;&#x6570;&#x6CA1;&#x6709;&#x88AB;&#x4E0A;&#x9762;&#x8BB2;&#x89E3;&#x7684;&#x51E0;&#x4E2A;&#x6CE8;&#x89E3;&#x4FEE;&#x9970; &#x4E5F;&#x5C31;&#x662F;&#x65E0;&#x6CE8;&#x89E3;&#x4FEE;&#x9970; &#x5F80;&#x5F80;&#x4ED6;&#x4EEC;&#x90FD;&#x6709;&#x5982;&#x4E0B;&#x7684;&#x51E0;&#x4E2A;&#x542B;&#x4E49; &#x6839;&#x636E;&#x4ED6;&#x4EEC;&#x7684;&#x53C2;&#x6570;&#x7C7B;&#x578B;&#x8FDB;&#x884C;&#x5206;&#x7C7B;:</p>
+<ul>
+<li><code>HttpServletRequest</code></li>
+<li><code>HttpServletResponse</code></li>
+<li><code>HttpSession</code></li>
+<li><code>InputStream</code> <code>OutputStream</code> <code>Reader</code> <code>Writer</code></li>
+</ul>
+<p>&#x4E5F;&#x5C31;&#x662F;&#x8BF4; &#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x53C2;&#x6570;&#x7ED1;&#x5B9A;&#x6765;&#x83B7;&#x53D6;&#x5230;ServletAPI&#x4E2D;&#x7684;&#x5E38;&#x7528;&#x5BF9;&#x8C61;...</p>
+<p>&#x5F53;&#x7136;&#x8FD8;&#x6709;&#x5E38;&#x89C1;&#x7684;&#x53C2;&#x6570;&#x7ED1;&#x5B9A; &#x4E5F;&#x5C31;&#x662F;&#x4E66;&#x5199;&#x6211;&#x4EEC;&#x7684;POJO&#x7C7B;&#x4F5C;&#x4E3A;&#x53C2;&#x6570; &#x7136;&#x540E;&#x8868;&#x5355;&#x9879;&#x91C7;&#x7528;OGNL&#x8868;&#x8FBE;&#x5F0F;&#x5373;&#x53EF;....</p>
+<h3 id="&#x4E71;&#x7801;&#x95EE;&#x9898;">&#x4E71;&#x7801;&#x95EE;&#x9898;</h3>
+<p>&#x6211;&#x4EEC;&#x9700;&#x8981;&#x914D;&#x7F6E;&#x4E00;&#x4E2A;&#x8FC7;&#x6EE4;&#x5668;&#x6765;&#x89E3;&#x51B3;POST&#x8BF7;&#x6C42;&#x4E71;&#x7801;&#x7684;&#x95EE;&#x9898;:</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">filter</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">filter-name</span>&gt;</span>characterEncodingFilter<span class="hljs-tag">&lt;/<span class="hljs-name">filter-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">filter-class</span>&gt;</span>org.springframework.web.filter.CharacterEncodingFilter<span class="hljs-tag">&lt;/<span class="hljs-name">filter-class</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">init-param</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">param-name</span>&gt;</span>encoding<span class="hljs-tag">&lt;/<span class="hljs-name">param-name</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">param-value</span>&gt;</span>UTF-8<span class="hljs-tag">&lt;/<span class="hljs-name">param-value</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">init-param</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">filter</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">filter-mapping</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">filter-name</span>&gt;</span>characterEncodingFilter<span class="hljs-tag">&lt;/<span class="hljs-name">filter-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/*<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">filter-mapping</span>&gt;</span>
+</code></pre>
+<p>==&#x8FD9;&#x4E2A;&#x8FC7;&#x6EE4;&#x5668;&#x5FC5;&#x987B;&#x653E;&#x5728;&#x6240;&#x6709;&#x8FC7;&#x6EE4;&#x5668;&#x7684;&#x6700;&#x524D;&#x9762; &#x5426;&#x5219;&#x65E0;&#x6548;==</p>
+<h3 id="&#x6A21;&#x578B;&#x6570;&#x636E;">&#x6A21;&#x578B;&#x6570;&#x636E;</h3>
+<p>&#x5F53;&#x4E1A;&#x52A1;&#x5C42;&#x8FDB;&#x884C;&#x5904;&#x7406;&#x5F97;&#x5230;&#x7ED3;&#x679C;&#x4E4B;&#x540E; &#x6211;&#x4EEC;&#x9700;&#x8981;&#x505A;&#x4E24;&#x4EF6;&#x4E8B;&#x60C5; &#x5C06;&#x4E00;&#x4E9B;&#x6570;&#x636E;&#x4FDD;&#x5B58;&#x5230;&#x6A21;&#x578B;&#x5F53;&#x4E2D; &#x7136;&#x540E;&#x8FDB;&#x884C;&#x8BF7;&#x6C42;&#x8F6C;&#x53D1;... &#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x7684;&#x5904;&#x7406;&#x5668;&#x65B9;&#x6CD5;&#x5C31;&#x6709;&#x4E86;&#x51E0;&#x79CD;&#x5199;&#x6CD5;:</p>
+<ul>
+<li>&#x8FD4;&#x56DE;ModelAndView</li>
+</ul>
+<pre><code class="lang-java"><span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/test1&quot;</span>)
+<span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">test1</span><span class="hljs-params">()</span> </span>{
+    ModelAndView mv = <span class="hljs-keyword">new</span> ModelAndView();
+    mv.setViewName(<span class="hljs-string">&quot;show&quot;</span>);                    <span class="hljs-comment">// &#x8BF7;&#x6C42;&#x8F6C;&#x53D1;</span>
+    mv.addObject(<span class="hljs-string">&quot;obj&quot;</span>, <span class="hljs-keyword">new</span> Object());        <span class="hljs-comment">// &#x5C01;&#x88C5;&#x6A21;&#x578B;</span>
+    <span class="hljs-keyword">return</span> mv;
+}
+</code></pre>
+<ul>
+<li>&#x8FD4;&#x56DE;String &#x53C2;&#x6570;&#x4E2D;&#x4F7F;&#x7528;Map&#x6216;&#x8005;Model&#x6216;&#x8005;ModelMap</li>
+</ul>
+<pre><code class="lang-java"><span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/test2&quot;</span>)
+<span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">test2</span><span class="hljs-params">(Map&lt;String, Object&gt; model)</span> </span>{
+    model.put(<span class="hljs-string">&quot;obj&quot;</span>, <span class="hljs-keyword">new</span> Object());
+    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;show&quot;</span>;
+}
+
+<span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/test3&quot;</span>)
+<span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">test3</span><span class="hljs-params">(Model model)</span> </span>{
+    model.addAttribute(<span class="hljs-string">&quot;obj&quot;</span>, <span class="hljs-keyword">new</span> Object());
+    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;show&quot;</span>;
+}
+
+<span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/test4&quot;</span>)
+<span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">test4</span><span class="hljs-params">(ModelMap model)</span> </span>{
+    model.addAttribute(<span class="hljs-string">&quot;obj&quot;</span>, <span class="hljs-keyword">new</span> Object());
+    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;show&quot;</span>;
+}
+</code></pre>
+<p>&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x4E5F;&#x53EF;&#x4EE5;&#x8FDB;&#x884C; &#x91CD;&#x5B9A;&#x5411; &#x53EA;&#x9700;&#x8981;&#x5728;&#x8FD4;&#x56DE;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x4F7F;&#x7528;&#x524D;&#x7F00;: <code>redirect:path</code> &#x5982;&#x679C;&#x6211;&#x4EEC;&#x6253;&#x5370;<code>Map</code> <code>Model</code> <code>ModelMap</code>&#x7684;&#x5B9E;&#x9645;&#x7C7B;&#x578B; &#x4F1A;&#x53D1;&#x73B0;&#x4ED6;&#x4EEC;&#x7684;&#x5B9E;&#x9645;&#x7C7B;&#x578B;&#x5176;&#x5B9E;&#x90FD;&#x662F;<code>BindingAwareModelMap</code></p>
+<h3 id="sessionattribute">@SessionAttribute</h3>
+<p>&#x6211;&#x4EEC;&#x5411;ModelMap&#x6216;&#x8005;ModelAndView&#x4E2D;&#x5B58;&#x5165;&#x7684;&#x53D8;&#x91CF; &#x90FD;&#x662F;request&#x57DF;&#x7684; &#x90A3;&#x4E48;&#x5982;&#x4F55;&#x624D;&#x80FD;&#x5B58;&#x50A8;&#x5230;session&#x57DF;&#x5462;?</p>
+<pre><code class="lang-java"><span class="hljs-meta">@Controller</span>
+<span class="hljs-meta">@SessionAttributes</span>(
+        names = {<span class="hljs-string">&quot;dept&quot;</span>},       <span class="hljs-comment">// &#x5982;&#x679C;&#x6A21;&#x578B;&#x4E2D;&#x6709;&#x540D;&#x4E3A;dept&#x7684;&#x53D8;&#x91CF; &#x5C31;&#x5C06;&#x5176;&#x62F7;&#x8D1D;&#x5230;session&#x57DF;</span>
+        types = {Dept.class}    <span class="hljs-comment">// &#x5982;&#x679C;&#x6A21;&#x578B;&#x4E2D;&#x6709;&#x7C7B;&#x578B;&#x4E3A;Dept&#x7684;&#x53D8;&#x91CF; &#x5C31;&#x5C06;&#x5176;&#x62F7;&#x8D1D;&#x5230;session&#x57DF;</span>
+)
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DeptController</span> </span>{
+    <span class="hljs-meta">@RequestMapping</span>(value = <span class="hljs-string">&quot;/dept&quot;</span>, method = RequestMethod.POST)
+    <span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">test</span><span class="hljs-params">(Dept dept)</span> <span class="hljs-keyword">throws</span> Exception </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ModelAndView(<span class="hljs-string">&quot;show&quot;</span>)
+                .addObject(<span class="hljs-string">&quot;dept&quot;</span>, dept);
+    }
+}
+</code></pre>
+<h3 id="modelattribute">@ModelAttribute</h3>
+<p>&#x8FD9;&#x4E2A;&#x6CE8;&#x89E3;&#x53EF;&#x4EE5;&#x653E;&#x5728;&#x65B9;&#x6CD5;&#x4E0A; &#x6216;&#x8005;&#x65B9;&#x6CD5;&#x53C2;&#x6570;&#x4E0A; &#x5982;&#x679C;&#x6807;&#x6CE8;&#x5728;&#x65B9;&#x6CD5;&#x4E0A; &#x90A3;&#x4E48;&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x4F1A;&#x5728;@RequestMapping&#x6807;&#x6CE8;&#x7684;&#x65B9;&#x6CD5;&#x4E4B;&#x524D;&#x6267;&#x884C; &#x5E76;&#x4E14;&#x603B;&#x4F1A;&#x5411;&#x6A21;&#x578B;Model&#x4E2D;&#x586B;&#x5145;&#x4E00;&#x4E9B;&#x5BF9;&#x8C61;... &#x5982;&#x679C;&#x6807;&#x6CE8;&#x5728;&#x65B9;&#x6CD5;&#x53C2;&#x6570;&#x4E0A; &#x5219;&#x4F1A;&#x4ECE;&#x6A21;&#x578B;&#x4E2D;&#x83B7;&#x53D6;&#x4E00;&#x4E9B;&#x5BF9;&#x8C61; &#x5E76;&#x4E14;&#x8FD8;&#x4F1A;&#x88AB;&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#x8FDB;&#x884C;&#x53C2;&#x6570;&#x7ED1;&#x5B9A;...</p>
+<ul>
+<li>&#x6807;&#x6CE8;&#x5728;&#x65B9;&#x6CD5;&#x4E0A;, &#x65B9;&#x6CD5;&#x6CA1;&#x6709;&#x8FD4;&#x56DE;&#x503C;, &#x53C2;&#x6570;&#x6709;Model</li>
+</ul>
+<pre><code class="lang-java"><span class="hljs-comment">// &#x6A21;&#x578B;&#x4E2D;&#x7684;&#x6570;&#x636E;: {obj:new Ojbect()}</span>
+<span class="hljs-meta">@ModelAttribute</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">before1</span><span class="hljs-params">(Model model)</span> </span>{
+    model.addAttribute(<span class="hljs-string">&quot;obj&quot;</span>, <span class="hljs-keyword">new</span> Object());
+}
+</code></pre>
+<ul>
+<li>&#x6807;&#x6CE8;&#x5728;&#x65B9;&#x6CD5;&#x4E0A;, &#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x5BF9;&#x8C61;&#x7C7B;&#x578B;, &#x6CA1;&#x6709;&#x53C2;&#x6570;</li>
+</ul>
+<pre><code class="lang-java"><span class="hljs-comment">// &#x6A21;&#x578B;&#x4E2D;&#x7684;&#x6570;&#x636E;: {object:new Object()} &#x952E;&#x662F;&#x7C7B;&#x578B;&#x7684;&#x9996;&#x5B57;&#x6BCD;&#x5C0F;&#x5199;</span>
+<span class="hljs-meta">@ModelAttribute</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> Object <span class="hljs-title">before2</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Object();
+}
+</code></pre>
+<ul>
+<li>&#x6807;&#x6CE8;&#x5728;&#x65B9;&#x6CD5;&#x4E0A;, &#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x5BF9;&#x8C61;&#x7C7B;&#x578B;, &#x6CA1;&#x6709;&#x53C2;&#x6570;, &#x4F46;&#x662F;&#x6CE8;&#x89E3;&#x63D0;&#x4F9B;&#x4E86;&#x53C2;&#x6570;</li>
+</ul>
+<pre><code class="lang-java"><span class="hljs-comment">// &#x6A21;&#x578B;&#x4E2D;&#x7684;&#x6570;&#x636E;: {obj:new Object()}</span>
+<span class="hljs-meta">@ModelAttribute</span>(<span class="hljs-string">&quot;obj&quot;</span>)
+<span class="hljs-function"><span class="hljs-keyword">public</span> Object <span class="hljs-title">before3</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Object();
+}
+</code></pre>
+<ul>
+<li>&#x6807;&#x6CE8;&#x5728;&#x53C2;&#x6570;&#x4E0A; &#x6CE8;&#x89E3;&#x63D0;&#x4F9B;&#x4E86;&#x53C2;&#x6570;</li>
+</ul>
+<pre><code class="lang-java"><span class="hljs-comment">// &#x4EE3;&#x8868;&#x4ECE;BindingAwareModelMap&#x4E2D;&#x83B7;&#x53D6;key=dept&#x7684;&#x5BF9;&#x8C61; &#x7136;&#x540E;&#x5728;&#x8FDB;&#x884C;&#x53C2;&#x6570;&#x7ED1;&#x5B9A;</span>
+<span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/dept/{id}&quot;</span>)
+<span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">update</span><span class="hljs-params">(@ModelAttribute(<span class="hljs-string">&quot;dept&quot;</span>)</span> Dept dept) </span>{
+    System.out.println(<span class="hljs-string">&quot;dept = &quot;</span> + dept);
+    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;show&quot;</span>;
+}
+</code></pre>
+<h3 id="httpsessionrequiredexception">HttpSessionRequiredException</h3>
+<p>&#x5BF9;&#x4E8E;@ModelAttribute&#x548C;@SessionAttribute&#x4F1A;&#x5F15;&#x53D1;&#x4E00;&#x4E2A;&#x5F02;&#x5E38;HttpSessionRequiredException &#x6211;&#x4EEC;&#x5148;&#x8003;&#x8651;&#x4E00;&#x4E2A;&#x95EE;&#x9898;:        &#x65B9;&#x6CD5;&#x7684;&#x53C2;&#x6570;<code>Dept dept</code>&#x548C;<code>@ModelAttribute Dept dept</code>&#x7684;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;?</p>
+<p>&#x7B54;: &#x524D;&#x8005;&#x53EA;&#x8FDB;&#x884C;&#x53C2;&#x6570;&#x7ED1;&#x5B9A; &#x540E;&#x8005;&#x5148;&#x5C1D;&#x8BD5;&#x4ECE;&#x6A21;&#x578B;&#x5BF9;&#x8C61;&#x4E2D;&#x83B7;&#x53D6; <strong>&#x518D;&#x5C1D;&#x8BD5;&#x4ECE;SessionAttribute&#x4E2D;&#x83B7;&#x53D6;</strong> &#x6700;&#x7EC8;&#x53C2;&#x6570;&#x7ED1;&#x5B9A;</p>
+<p>&#x56E0;&#x4E3A;&#x95EE;&#x9898;&#x7684;&#x539F;&#x56E0;&#x5C31;&#x5728;&#x4E8E; &#x8FD8;&#x8981;&#x5C1D;&#x8BD5;&#x4ECE;SessionAttribute&#x4E2D;&#x83B7;&#x53D6; &#x56E0;&#x4E3A;&#x8FD9;&#x662F;&#x4F60;&#x627F;&#x8BFA;&#x7684;&#x4E1C;&#x897F;....</p>
+<pre><code class="lang-java"><span class="hljs-meta">@Controller</span>
+<span class="hljs-meta">@SessionAttributes</span>(<span class="hljs-string">&quot;dept_1&quot;</span>)
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DeptController</span> </span>{
+
+    <span class="hljs-meta">@ModelAttribute</span>(<span class="hljs-string">&quot;dept_0&quot;</span>)       <span class="hljs-comment">// &#x5411;&#x9690;&#x85CF;&#x6A21;&#x578B;&#x4E2D;&#x5B58;&#x50A8; dept_0</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Dept <span class="hljs-title">save</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Dept();
+    }
+
+    <span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/get1&quot;</span>)
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">get1</span><span class="hljs-params">(Dept dept)</span> </span>{ <span class="hljs-comment">// &#x521B;&#x5EFA;&#x65B0;&#x5BF9;&#x8C61; &#x8FDB;&#x884C;&#x53C2;&#x6570;&#x7ED1;&#x5B9A;</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;show&quot;</span>;
+    }
+
+    <span class="hljs-comment">// &#x4E0B;&#x9762;&#x8FD9;&#x79CD;&#x60C5;&#x51B5; &#x9996;&#x5148;&#x5C1D;&#x8BD5;&#x4ECE;&#x9690;&#x85CF;&#x6A21;&#x578B;&#x4E2D;&#x83B7;&#x53D6; dept_1 &#x53D1;&#x73B0;&#x6CA1;&#x6709;</span>
+    <span class="hljs-comment">// &#x53C8;&#x4ECE;&#x4F60;&#x627F;&#x8BFA;&#x7684;SessionAttribute&#x4E2D;&#x5C1D;&#x8BD5;&#x83B7;&#x53D6; dept_1</span>
+    <span class="hljs-comment">// &#x7136;&#x800C;Session&#x57DF;&#x4E2D;&#x5B9E;&#x9645;&#x5E76;&#x6CA1;&#x6709;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61; &#x6240;&#x4EE5;&#x5C31;&#x4F1A;&#x629B;&#x51FA;&#x5F02;&#x5E38;&#x4E86;...</span>
+    <span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/get2&quot;</span>)
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">get2</span><span class="hljs-params">(@ModelAttribute(<span class="hljs-string">&quot;dept_1&quot;</span>)</span> Dept dept) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;show&quot;</span>;
+    }
+
+    <span class="hljs-comment">// &#x5982;&#x679C;&#x4E0D;&#x6307;&#x5B9A;value&#x5C5E;&#x6027; &#x90A3;&#x4E48;&#x9ED8;&#x8BA4;&#x5C31;&#x662F;&#x53BB;&#x627E; dept, &#x9690;&#x85CF;&#x6A21;&#x578B;&#x6CA1;&#x6709;, session&#x4E5F;&#x6CA1;&#x6709;</span>
+    <span class="hljs-comment">// &#x6240;&#x4EE5;&#x4F1A;&#x81EA;&#x5DF1;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684; &#x6240;&#x4EE5;&#x4E0D;&#x4F1A;&#x62A5;&#x9519;...</span>
+    <span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/get3&quot;</span>)
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">get3</span><span class="hljs-params">(@ModelAttribute Dept dept)</span> </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;show&quot;</span>;
+    }
+
+}
+</code></pre>
+<h3 id="&#x5904;&#x7406;&#x5668;&#x603B;&#x7ED3;">&#x5904;&#x7406;&#x5668;&#x603B;&#x7ED3;</h3>
+<pre><code class="lang-java"><span class="hljs-meta">@Controller</span>
+<span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/base&quot;</span>)
+<span class="hljs-meta">@SessionAttributes</span>(
+        names = {<span class="hljs-string">&quot;dept&quot;</span>},
+        types = {Dept.class}
+)
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DeptController</span> </span>{
+
+    <span class="hljs-meta">@ModelAttribute</span>(<span class="hljs-string">&quot;dept&quot;</span>)
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Dept <span class="hljs-title">before</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Dept();
+    }
+
+    <span class="hljs-meta">@RequestMapping</span>(
+            value = <span class="hljs-string">&quot;/dept/*/{ cid}&quot;</span>,
+            method = {RequestMethod.GET, RequestMethod.PUT},
+            headers = {<span class="hljs-string">&quot;User-Agent!=...&quot;</span>},
+            params = {<span class="hljs-string">&quot;a&quot;</span>, <span class="hljs-string">&quot;!b&quot;</span>, <span class="hljs-string">&quot;c=C&quot;</span>, <span class="hljs-string">&quot;d!=D&quot;</span>}
+    )
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">service</span><span class="hljs-params">(
+            @PathVariable(<span class="hljs-string">&quot;id&quot;</span>)</span> Integer id,             <span class="hljs-comment">// &#x83B7;&#x53D6;URI&#x4FE1;&#x606F;</span>
+            @<span class="hljs-title">RequestParam</span><span class="hljs-params">(<span class="hljs-string">&quot;name&quot;</span>)</span> String name,          <span class="hljs-comment">// &#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x53C2;&#x6570;</span>
+            @<span class="hljs-title">RequestHeader</span><span class="hljs-params">(<span class="hljs-string">&quot;Host&quot;</span>)</span> String host,         <span class="hljs-comment">// &#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x5934;</span>
+            @<span class="hljs-title">CookieValue</span><span class="hljs-params">(<span class="hljs-string">&quot;JSESSIONID&quot;</span>)</span> String jid,      <span class="hljs-comment">// &#x83B7;&#x53D6;Cookie</span>
+            @<span class="hljs-title">ModelAttribute</span><span class="hljs-params">(<span class="hljs-string">&quot;dept&quot;</span>)</span> Dept dept1,         <span class="hljs-comment">// &#x5BF9;&#x9690;&#x85CF;&#x6A21;&#x578B;&#x53C2;&#x6570;&#x7ED1;&#x5B9A;</span>
+            Dept dept2,                                 <span class="hljs-comment">// &#x53C2;&#x6570;&#x7ED1;&#x5B9A;</span>
+            HttpServletResponse response,               <span class="hljs-comment">// &#x83B7;&#x53D6;&#x539F;&#x751F;API</span>
+            Model model                                 <span class="hljs-comment">// &#x83B7;&#x53D6;&#x9690;&#x85CF;&#x6A21;&#x578B;</span>
+    ) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;show&quot;</span>;
+    }
+
+}
+</code></pre>
+<h2 id="&#x914D;&#x7F6E;&#x6587;&#x4EF6;">&#x914D;&#x7F6E;&#x6587;&#x4EF6;</h2>
+<h3 id="mvcdefault-servlet-handler">&lt;mvc:default-servlet-handler&gt;</h3>
+<p>&#x6211;&#x4EEC;&#x6240;&#x6709;&#x7684;&#x8BF7;&#x6C42;&#x90FD;&#x4F1A;&#x7ECF;&#x8FC7;<code>DispatcherServlet</code>, &#x56E0;&#x4E3A;&#x5B83;&#x7684;<code>&lt;url-pattern&gt;</code>&#x88AB;&#x6211;&#x4EEC;&#x914D;&#x7F6E;&#x6210;&#x4E86;<code>/</code>, &#x5982;&#x679C;&#x914D;&#x7F6E;&#x6210;<code>.action</code>/<code>.do</code>&#x7684;&#x8BDD;, &#x5C31;&#x4E0D;&#x7528;&#x62C5;&#x5FC3;&#x9759;&#x6001;&#x8D44;&#x6E90;&#x4F8B;&#x5982;<code>/js/jquery.js</code>&#x88AB;&#x62E6;&#x622A;&#x4E86;.. &#x4F46;&#x662F;==&#x4F18;&#x96C5;&#x7684;Restful&#x98CE;&#x683C;URL&#x662F;&#x4E0D;&#x5EFA;&#x8BAE;&#x6211;&#x4EEC;&#x4E0D;&#x5E94;&#x8BE5;&#x5E26;&#x6709;&#x540E;&#x7F00;&#x540D;==&#x8FD9;&#x4E2A;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x5C31;&#x9700;&#x8981;&#x6765;&#x89E3;&#x51B3;&#x9759;&#x6001;&#x8D44;&#x6E90;&#x6620;&#x5C04;&#x7684;&#x95EE;&#x9898;, &#x53EA;&#x9700;&#x8981;&#x914D;&#x7F6E;&#x5982;&#x4E0B;&#x7684;&#x6807;&#x7B7E;:</p>
+<pre><code class="lang-xml"><span class="hljs-comment">&lt;!-- &#x9759;&#x6001;&#x8D44;&#x6E90;&#x914D;&#x7F6E; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">mvc:default-servlet-handler</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">mvc:default-servlet-handler</span>&gt;</span>
+</code></pre>
+<p>&#x90A3;&#x4E48;&#x8FD9;&#x4E2A;&#x914D;&#x7F6E;&#x7684;&#x4F5C;&#x7528;&#x6211;&#x4EEC;&#x5DF2;&#x7ECF;&#x731C;&#x5230;&#x4E86;:</p>
+<ul>
+<li>&#x5982;&#x679C;&#x8BF7;&#x6C42;&#x53EF;&#x4EE5;&#x627E;&#x5230;&#x5BF9;&#x5E94;&#x7684;Handler ==&gt; &#x6267;&#x884C;Handler</li>
+<li>&#x5982;&#x679C;&#x8BF7;&#x6C42;&#x627E;&#x4E0D;&#x5230;&#x5BF9;&#x5E94;&#x7684;Handler ==&gt; &#x53BB;&#x67E5;&#x627E;&#x9759;&#x6001;&#x8D44;&#x6E90;, &#x5982;&#x679C;&#x6CA1;&#x627E;&#x5230;<code>&#x8FD4;&#x56DE;404</code>, &#x800C;&#x4E0D;&#x662F;<code>&#x6CA1;&#x6709;&#x63D0;&#x4F9B;&#x6620;&#x5C04;</code></li>
+</ul>
+<p>&#x90A3;&#x4E48;&#x539F;&#x7406;&#x662F;&#x4EC0;&#x4E48;&#x5462;?</p>
+<p>&#x5728;&#x6211;&#x4EEC;&#x7684;tomcat&#x670D;&#x52A1;&#x5668;&#x914D;&#x7F6E;&#x6587;&#x4EF6;<code>tomcat:conf/web.xml</code>&#x4E2D;&#x6709;&#x7740;&#x5BF9;&#x6240;&#x6709;&#x9879;&#x76EE;&#x7684;<code>&#x516C;&#x5171;&#x90E8;&#x7F72;&#x63CF;&#x8FF0;&#x7B26;</code>&#x914D;&#x7F6E;, &#x91CC;&#x9762;&#x914D;&#x7F6E;&#x4E86;&#x5982;&#x4E0B;&#x5185;&#x5BB9;:</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">servlet</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>default<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-class</span>&gt;</span>org.apache.catalina.servlets.DefaultServlet<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-class</span>&gt;</span>
+    ... initParams
+    <span class="hljs-tag">&lt;<span class="hljs-name">load-on-startup</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">load-on-startup</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">servlet-mapping</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">servlet-name</span>&gt;</span>default<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">servlet-mapping</span>&gt;</span>
+</code></pre>
+<p>&#x8FD9;&#x4E2A;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x4E24;&#x4E2A;Servlet&#x6211;&#x4EEC;&#x5176;&#x5B9E;&#x5DF2;&#x7ECF;&#x5B66;&#x4E60;&#x8FC7;&#x4E86;, &#x4E00;&#x4E2A;&#x7528;&#x6765;&#x5904;&#x7406;&#x9759;&#x6001;&#x8D44;&#x6E90;, &#x4E00;&#x4E2A;&#x7528;&#x6765;&#x5904;&#x7406;JSP&#x9875;&#x9762;...</p>
+<p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x914D;&#x7F6E;&#x4E86;<code>&lt;mvc:default-servlet-handler&gt;</code> &#x90A3;&#x4E48;&#x5C31;&#x4F1A;&#x5411;&#x5BB9;&#x5668;&#x4E2D;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;<code>Handler</code>:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DefaultServletHttpRequestHandler</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">HttpRequestHandler</span> </span>{
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">handleRequest</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse response)</span> </span>{
+        RequestDispatcher rd = 
+                <span class="hljs-keyword">this</span>.servletContext.getNamedDispatcher(<span class="hljs-keyword">this</span>.defaultServletName);
+        rd.forward(request, response);
+    }
+}
+</code></pre>
+<p>&#x4E5F;&#x5C31;&#x662F;&#x8BF4;, &#x6211;&#x4EEC;&#x7684;&#x8BF7;&#x6C42;&#x4F1A;&#x88AB;<code>HandlerMapping</code>&#x5C1D;&#x8BD5;&#x8FDB;&#x884C;&#x6620;&#x5C04;:</p>
+<ul>
+<li>&#x5982;&#x679C;&#x6620;&#x5C04;&#x5230;&#x6211;&#x4EEC;&#x7F16;&#x5199;&#x7684;Handler, &#x5C31;&#x8BE5;&#x600E;&#x4E48;&#x6837;&#x600E;&#x4E48;&#x6837;</li>
+<li>&#x5982;&#x679C;&#x6CA1;&#x6709;&#x6620;&#x5C04;&#x5230;&#x6211;&#x4EEC;&#x7F16;&#x5199;&#x7684;Handler, &#x5C31;&#x4F1A;&#x67E5;&#x770B;&#x5BB9;&#x5668;&#x4E2D;&#x662F;&#x5426;&#x6709;<code>DefaultServletHttpRequestHandler</code><ul>
+<li>&#x5982;&#x679C;&#x6709;, &#x5C31;&#x6620;&#x5C04;&#x5230;&#x5B83;, &#x5B83;&#x5C31;&#x4F1A;&#x8BF7;&#x6C42;&#x8F6C;&#x53D1;&#x5230;<code>DefaultServlet</code>, &#x5C31;&#x4F1A;&#x5904;&#x7406;&#x9759;&#x6001;&#x8D44;&#x6E90;&#x4E86;</li>
+<li>&#x5982;&#x679C;&#x6CA1;&#x6709;, &#x5C31;&#x53D1;&#x9001;&#x5F02;&#x5E38;, &#x8BF4;&#x660E;&#x5F53;&#x524D;&#x8BF7;&#x6C42;&#x6CA1;&#x6709;&#x6620;&#x5C04;</li>
+</ul>
+</li>
+</ul>
+<h3 id="mvcview-controller">&lt;mvc:view-controller&gt;</h3>
+<p>&#x6709;&#x7684;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x6211;&#x4EEC;&#x53EF;&#x80FD;&#x4F1A;&#x5199;&#x51FA;&#x5982;&#x4E0B;&#x7684;&#x63A7;&#x5236;&#x5668;...</p>
+<pre><code class="lang-java"><span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/index.html&quot;</span>)
+<span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">goIndex</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;index&quot;</span>;                <span class="hljs-comment">// [/WEB-INF/jsp/index.jsp]</span>
+}
+</code></pre>
+<p>&#x5B9E;&#x9645;&#x4E0A;&#x6211;&#x4EEC;&#x8FD9;&#x4E2A;&#x5904;&#x7406;&#x5668;&#x65B9;&#x6CD5;&#x5B58;&#x5728;&#x7684;&#x610F;&#x4E49;&#x53EA;&#x662F;&#x8F6C;&#x53D1;&#x5230;&#x4E00;&#x4E2A;&#x89C6;&#x56FE;&#x800C;&#x5DF2;... &#x5F88;&#x660E;&#x663E;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x76F8;&#x5F53;&#x56FA;&#x5B9A;&#x7684;&#x5185;&#x5BB9;... &#x6211;&#x4EEC;&#x5E94;&#x8BE5;&#x5C06;&#x5176;&#x653E;&#x5165;&#x5230;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x624D;&#x5408;&#x9002;:</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">mvc:view-controller</span> <span class="hljs-attr">path</span>=<span class="hljs-string">&quot;/index.html&quot;</span> <span class="hljs-attr">view-name</span>=<span class="hljs-string">&quot;index&quot;</span>/&gt;</span>
+</code></pre>
+<p>&#x8FD9;&#x5C31;&#x662F;&#x8FD9;&#x4E2A;&#x6807;&#x7B7E;&#x5B58;&#x5728;&#x7684;&#x610F;&#x4E49;, &#x5C06;&#x4E00;&#x4E2A;<code>ServletPath</code>&#x8BF7;&#x6C42;&#x6620;&#x5C04;&#x5230;&#x4E00;&#x4E2A;<code>SpringMVC&#x89C6;&#x56FE;&#x540D;&#x79F0;</code></p>
+<h3 id="mvcannotaion-driven">&lt;mvc:annotaion-driven&gt;</h3>
+<h2 id="json">JSON</h2>
+<p><strong>Jackson</strong></p>
+<p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x5728;&#x6211;&#x4EEC;&#x7684;SpringMVC&#x9879;&#x76EE;&#x5F53;&#x4E2D;&#x4F7F;&#x7528;Json&#x7684;&#x76F8;&#x5173;&#x529F;&#x80FD;, &#x9700;&#x8981;&#x5BFC;&#x5165;Jackson&#x7684;jar&#x5305;:</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>com.fasterxml.jackson.core<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>jackson-databind<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>2.9.8<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>
+</code></pre>
+<p><code>jackson-databind</code> &lt;== <code>jackson-core</code> + <code>jackson-annotations</code> &#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8981;&#x5BFC;&#x5165;&#x4E0A;&#x9762;&#x7684;jar&#x5305;&#x5373;&#x53EF;</p>
+<p><strong>@RequestBody</strong></p>
+<p><strong>@ResponseBody</strong></p>
+<h2 id="&#x4E0A;&#x4F20;">&#x4E0A;&#x4F20;</h2>
+<p>&#x5982;&#x679C;&#x6211;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x4E0A;&#x4F20;&#x76F8;&#x5173;&#x7684;&#x64CD;&#x4F5C;, &#x6211;&#x4EEC;&#x9700;&#x8981;&#x5F15;&#x5165;&#x5982;&#x4E0B;&#x7684;jar&#x5305; <code>commons-fileupload</code> &lt;= <code>commons-io</code>:</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>commons-fileupload<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>commons-fileupload<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>1.3.1<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>
+</code></pre>
+<p>&#x7136;&#x540E;&#x9700;&#x8981;&#x5728;<code>spring.mvc</code>&#x4E2D;&#x914D;&#x7F6E;&#x4E00;&#x4E2A;<code>CommonsMultipartResolver</code>:</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">bean</span>  <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;multipartResolver&quot;</span>    # &#x5FC5;&#x987B;&#x5199;&#x8FD9;&#x4E2A;<span class="hljs-attr">ID:</span> <span class="hljs-attr">multipartResolver</span>
+          <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;org.springframework.web.multipart.commons.CommonsMultipartResolver&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;defaultEncoding&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;UTF-8&quot;</span>/&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;maxUploadSize&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;1048576&quot;</span>/&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;maxUploadSizePerFile&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;1048576&quot;</span>/&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">bean</span>&gt;</span>
+</code></pre>
+<ul>
+<li><code>defaultEncoding</code>: &#x8BBE;&#x7F6E;&#x5BF9;&#x5BA2;&#x6237;&#x7AEF;&#x4F20;&#x6765;&#x7684;&#x6587;&#x4EF6;&#x7684;&#x89E3;&#x7801;&#x65B9;&#x5F0F;</li>
+<li><code>maxUploadSize</code>: &#x8BBE;&#x7F6E;&#x6700;&#x5927;&#x7684;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x603B;&#x5927;&#x5C0F;</li>
+<li><code>maxUploadSizePreFile</code>: &#x8BBE;&#x7F6E;&#x4E0A;&#x4F20;&#x65F6;&#x5355;&#x4E2A;&#x6587;&#x4EF6;&#x7684;&#x6700;&#x5927;SIZE</li>
+<li>==<code>id=multipartResolver</code>: ID&#x5FC5;&#x987B;&#x8981;&#x7528;&#x8FD9;&#x4E2A;, &#x5426;&#x5219;SpringMVC&#x662F;&#x65E0;&#x6CD5;&#x7406;&#x89E3;&#x7684;...==</li>
+</ul>
+<p>&#x7136;&#x540E;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x5728;&#x6211;&#x4EEC;&#x7684;&#x63A7;&#x5236;&#x5668;&#x65B9;&#x6CD5;&#x4E2D;&#x901A;&#x8FC7;<code>@RequestParam</code>&#x6CE8;&#x89E3;&#x8F7B;&#x677E;&#x7684;&#x83B7;&#x53D6;&#x5230;&#x6587;&#x4EF6;&#x4E86;:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;/web/testUpload&quot;</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;post&quot;</span> <span class="hljs-attr">enctype</span>=<span class="hljs-string">&quot;multipart/form-data&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;file&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;file&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">button</span>&gt;</span>testUpload<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-java"><span class="hljs-meta">@RequestMapping</span>(<span class="hljs-string">&quot;/testUpload&quot;</span>)
+<span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">testUpload</span> <span class="hljs-params">(
+        @RequestParam(<span class="hljs-string">&quot;file&quot;</span>)</span> MultipartFile file
+) <span class="hljs-keyword">throws</span> Exception </span>{
+    System.out.println(file);
+    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;test&quot;</span>;
+}
+</code></pre>
+<p>&#x5BF9;&#x4E8E;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x7528;<code>MultipartFile</code>&#x7C7B;&#x578B;&#x6765;&#x8FDB;&#x884C;&#x63A5;&#x6536;, &#x8FD9;&#x4E2A;&#x7C7B;&#x6709;&#x5982;&#x4E0B;&#x65B9;&#x6CD5;:</p>
+<ul>
+<li><code>getName():String</code>: &#x83B7;&#x53D6;<code>&lt;input name=&quot;?&quot;&gt;</code>&#x4E2D;&#x7684;<code>?</code>, &#x4E5F;&#x5C31;&#x662F;<strong>&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#x540D;&#x79F0;</strong></li>
+<li><code>getOriginalFileName():String</code>: &#x83B7;&#x53D6;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;<strong>&#x6587;&#x4EF6;&#x540D;</strong></li>
+<li><code>getSize():long</code>: &#x83B7;&#x53D6;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;<strong>&#x5927;&#x5C0F;</strong></li>
+<li><code>getContentType():String</code>: &#x83B7;&#x53D6;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;<strong>MEME&#x7C7B;&#x578B;</strong></li>
+<li><code>getBytes():byte[]</code>: &#x83B7;&#x53D6;&#x5230;&#x6587;&#x4EF6;&#x7684;&#x4E8C;&#x8FDB;&#x5236;&#x6D41;<strong>byte&#x6570;&#x7EC4;</strong></li>
+<li><code>isEmpty():boolean</code>: &#x5224;&#x65AD;&#x63A5;&#x6536;&#x7684;&#x6587;&#x4EF6;&#x662F;&#x5426;&#x4E3A;&#x7A7A;</li>
+<li><code>getInputStream():InputStream</code>: &#x83B7;&#x53D6;&#x5230;&#x6587;&#x4EF6;&#x7684;<strong>&#x8F93;&#x5165;&#x6D41;</strong></li>
+<li><code>transferTo(File):void</code>: &#x5C06;&#x63A5;&#x6536;&#x5230;&#x7684;&#x6587;&#x4EF6;&#x62F7;&#x8D1D;&#x5230;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x8DEF;&#x5F84;...</li>
+</ul>
+<h2 id="&#x62E6;&#x622A;&#x5668;">&#x62E6;&#x622A;&#x5668;</h2>
+<h3 id="&#x81EA;&#x5B9A;&#x4E49;&#x62E6;&#x622A;&#x5668;">&#x81EA;&#x5B9A;&#x4E49;&#x62E6;&#x622A;&#x5668;</h3>
+<ul>
+<li>&#x7B2C;&#x4E00;&#x6B65;: &#x521B;&#x5EFA;&#x62E6;&#x622A;&#x5668;&#x7C7B;, &#x5B9E;&#x73B0;<code>HandlerInterceptor</code>&#x63A5;&#x53E3;</li>
+</ul>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyInterceptor</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">HandlerInterceptor</span> </span>{
+    <span class="hljs-meta">@Override</span>        <span class="hljs-comment">// &#x6B64;&#x65B9;&#x6CD5;&#x5728;&#x5904;&#x7406;&#x5668;&#x6267;&#x884C;&#x524D;&#x6267;&#x884C;</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">boolean</span> <span class="hljs-title">preHandle</span><span class="hljs-params">(...)</span> <span class="hljs-keyword">throws</span> Exception </span>{ <span class="hljs-keyword">return</span> <span class="hljs-keyword">true</span>; }
+    <span class="hljs-meta">@Override</span>        <span class="hljs-comment">// &#x6B64;&#x65B9;&#x6CD5;&#x5728;&#x5904;&#x7406;&#x5668;&#x6267;&#x884C;&#x540E;&#x6267;&#x884C;</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">postHandle</span><span class="hljs-params">(...)</span> <span class="hljs-keyword">throws</span> Exception </span>{}
+    <span class="hljs-meta">@Override</span>        <span class="hljs-comment">// &#x6B64;&#x65B9;&#x6CD5;&#x5728;&#x89C6;&#x56FE;&#x6E32;&#x67D3;&#x5B8C;&#x6210;&#x540E;&#x6267;&#x884C;, &#x4E00;&#x822C;&#x7528;&#x4F5C;&#x8D44;&#x6E90;&#x91CA;&#x653E;</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">afterCompletion</span><span class="hljs-params">(...)</span> <span class="hljs-keyword">throws</span> Exception </span>{}
+}
+</code></pre>
+<p>&#x6CE8;&#x610F;&#x7B2C;&#x4E00;&#x4E2A;&#x65B9;&#x6CD5;<code>preHandler()</code>&#x5E94;&#x8BE5;&#x8FD4;&#x56DE;<code>true</code>, &#x7A0D;&#x5FAE;&#x6211;&#x4EEC;&#x4F1A;&#x8BF4;&#x660E;&#x4E3A;&#x4EC0;&#x4E48;...</p>
+<ul>
+<li>&#x7B2C;&#x4E8C;&#x6B65;: &#x5728;<code>springmvc.xml</code>&#x5F53;&#x4E2D;&#x8FDB;&#x884C;&#x914D;&#x7F6E;</li>
+</ul>
+<pre><code class="lang-xml"><span class="hljs-comment">&lt;!-- &#x81EA;&#x5B9A;&#x4E49;&#x62E6;&#x622A;&#x5668; --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">mvc:interceptors</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">mvc:interceptor</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">mvc:mapping</span> <span class="hljs-attr">path</span>=<span class="hljs-string">&quot;/dept/test&quot;</span>/&gt;</span>
+        <span class="hljs-comment">&lt;!--&lt;mvc:exclude-mapping path=&quot;&quot;/&gt;: &#x7528;&#x6765;&#x6392;&#x9664;&#x4E00;&#x4E9B;&#x8DEF;&#x5F84;--&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;me.faene.interceptor.MyInterceptor&quot;</span>/&gt;</span>
+        <span class="hljs-comment">&lt;!--&lt;ref bean=&quot;&quot;/&gt;: &#x7528;&#x6765;&#x5F15;&#x7528;&#x4E00;&#x4E2A;Bean--&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">mvc:interceptor</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">mvc:interceptors</span>&gt;</span>
+</code></pre>
+<p>&#x8FD9;&#x4E2A;&#x914D;&#x7F6E;&#x5F88;&#x7B80;&#x5355;, &#x6211;&#x4EEC;&#x5C31;&#x4E0D;&#x518D;&#x8D58;&#x8FF0;&#x4E86;... &#x90FD;&#x662F;&#x6211;&#x4EEC;&#x975E;&#x5E38;&#x719F;&#x6089;&#x7684;&#x4E1C;&#x897F;&#x4E86;</p>
+<blockquote>
+<p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x7684;&#x62E6;&#x622A;&#x5668;&#x8981;&#x62E6;&#x622A;&#x6240;&#x6709;&#x7684;&#x5904;&#x7406;&#x5668;, &#x90A3;&#x4E48;&#x5C31;&#x6CA1;&#x5FC5;&#x8981;&#x4F7F;&#x7528;<code>&lt;mvc:mapping&gt;</code>&#x6807;&#x7B7E;&#x4E86;, &#x8FD9;&#x4E2A;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x751A;&#x81F3;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8FD9;&#x6837;&#x914D;&#x7F6E;:</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">mvc:interceptors</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;me.faene.interceptor.MyInterceptor&quot;</span>/&gt;</span>
+    <span class="hljs-comment">&lt;!--&lt;ref bean=&quot;&quot;/&gt;--&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">mvc:interceptors</span>&gt;</span>
+</code></pre>
+</blockquote>
+<h3 id="&#x62E6;&#x622A;&#x5668;&#x6E90;&#x7801;">&#x62E6;&#x622A;&#x5668;&#x6E90;&#x7801;</h3>
+<p>&#x6211;&#x4EEC;&#x8FD8;&#x662F;&#x8981;&#x4ECE;<code>DispatcherServlet#dispatcher()</code>&#x65B9;&#x6CD5;&#x8BF4;&#x8D77;... </p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title">doDispatch</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse response)</span> </span>{
+    <span class="hljs-comment">// ...... &#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668;&#x83B7;&#x53D6;&#x5B8C;&#x6BD5; &#x51C6;&#x5907;&#x5904;&#x7406;</span>
+    <span class="hljs-keyword">if</span> (!mappedHandler.applyPreHandle(processedRequest, response)) {
+        <span class="hljs-keyword">return</span>;
+    }
+    mv = ha.handle(processedRequest, response, mappedHandler.getHandler());
+    mappedHandler.applyPostHandle(processedRequest, response, mv);
+    <span class="hljs-comment">// ...... &#x5373;&#x5C06;&#x89C6;&#x56FE;&#x6E32;&#x67D3;...</span>
+    processDispatchResult(processedRequest, response, mappedHandler, mv);
+}
+</code></pre>
+<hr>
+<p>&#x8FD9;&#x91CC;&#x7684;<code>mappedHandler</code>&#x53D8;&#x91CF;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x7684;<code>HandlerExecutionChain</code>, &#x5185;&#x90E8;&#x5305;&#x542B;&#x4E86;<code>&#x65B9;&#x6CD5;&#x5904;&#x7406;&#x5668;</code>&#x4EE5;&#x53CA;&#x82E5;&#x5E72;<code>&#x62E6;&#x622A;&#x5668;</code>. &#x9996;&#x5148;&#x4F1A;&#x8C03;&#x7528;<code>applyPreHandle()</code>&#x65B9;&#x6CD5;:</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">boolean</span> <span class="hljs-title">applyPreHandle</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse response)</span> </span>{
+    HandlerInterceptor[] interceptors = getInterceptors();    <span class="hljs-comment">// &#x83B7;&#x53D6;&#x6240;&#x6709;&#x7684;&#x62E6;&#x622A;&#x5668;</span>
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; interceptors.length; i++) {
+        HandlerInterceptor interceptor = interceptors[i];
+        <span class="hljs-comment">// &#x4F9D;&#x6B21;&#x6267;&#x884C;&#x6BCF;&#x4E2A;&#x62E6;&#x622A;&#x5668;&#x7684;preHandler()&#x65B9;&#x6CD5;, &#x53EA;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x8FD4;&#x56DE;FALSE &#x7ACB;&#x5373;&#x8FD4;&#x56DE;FALSE</span>
+        <span class="hljs-keyword">if</span> (!interceptor.preHandle(request, response, <span class="hljs-keyword">this</span>.handler)) {
+            triggerAfterCompletion(request, response, <span class="hljs-keyword">null</span>);    <span class="hljs-comment">// &#x540E;&#x671F;&#x8BF4;&#x660E;</span>
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">false</span>;
+        }
+        <span class="hljs-keyword">this</span>.interceptorIndex = i;        <span class="hljs-comment">// &#x5C06;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;interceptorIndex&#x8BBE;&#x7F6E;&#x4E3A;&#x5DF2;&#x7ECF;&#x6267;&#x884C;&#x7684;&#x62E6;&#x622A;&#x5668;&#x6570;</span>
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">true</span>;
+}
+</code></pre>
+<p>&#x9700;&#x8981;&#x6CE8;&#x610F;&#x4E00;&#x70B9;, &#x5982;&#x679C;&#x6709;&#x4E00;&#x4E2A;&#x62E6;&#x622A;&#x5668;&#x7684;<code>preHandler()</code>&#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x4E86;<code>FALSE</code>, &#x90A3;&#x4E48;<code>applyPreHandler()</code>&#x65B9;&#x6CD5;&#x8FD4;&#x56DE;<code>FALSE</code>, &#x4ECE;&#x800C;&#x5BFC;&#x81F4;<code>doDispatcher()</code>&#x65B9;&#x6CD5;&#x76F4;&#x63A5;<code>return;</code>&#x9000;&#x51FA;&#x65B9;&#x6CD5;... &#x5C31;&#x7ED3;&#x675F;&#x4E86;</p>
+<hr>
+<p>&#x7D27;&#x63A5;&#x7740;&#x5C31;&#x662F;&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668;&#x5F00;&#x59CB;&#x5904;&#x7406;&#x6211;&#x4EEC;&#x7684;<code>&#x5904;&#x7406;&#x5668;&#x65B9;&#x6CD5;</code>&#x4E86;, &#x5F97;&#x5230;<code>ModelAndView</code>:</p>
+<pre><code class="lang-java">mv = ha.handle(processedRequest, response, mappedHandler.getHandler());
+</code></pre>
+<hr>
+<p>&#x518D;&#x4E4B;&#x540E;&#x5F00;&#x59CB;&#x8C03;&#x7528;<code>applyPostHandle()</code>&#x65B9;&#x6CD5;, &#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x731C;&#x5230;&#x5C31;&#x662F;&#x4E00;&#x6B21;&#x6267;&#x884C;&#x6BCF;&#x4E2A;&#x62E6;&#x622A;&#x5668;&#x7684;<code>postHandler()</code>&#x65B9;&#x6CD5;:</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">applyPostHandle</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse response, ModelAndView mv)</span> </span>{
+    HandlerInterceptor[] interceptors = getInterceptors();
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = interceptors.length - <span class="hljs-number">1</span>; i &gt;= <span class="hljs-number">0</span>; i--) {
+        HandlerInterceptor interceptor = interceptors[i];
+        interceptor.postHandle(request, response, <span class="hljs-keyword">this</span>.handler, mv);
+    }
+}
+</code></pre>
+<hr>
+<p>&#x7D27;&#x63A5;&#x7740;&#x5C31;&#x8981;&#x53BB;&#x8C03;&#x7528;&#x6E32;&#x67D3;&#x89C6;&#x56FE;&#x7684;&#x65B9;&#x6CD5;&#x4E86;,</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title">processDispatchResult</span><span class="hljs-params">(...)</span> <span class="hljs-keyword">throws</span> Exception </span>{
+    <span class="hljs-comment">// ...... &#x82E5;&#x5E72;&#x64CD;&#x4F5C;</span>
+    <span class="hljs-keyword">if</span> (mv != <span class="hljs-keyword">null</span> &amp;&amp; !mv.wasCleared()) {
+        render(mv, request, response);        <span class="hljs-comment">// &#x8C03;&#x7528;&#x6E32;&#x67D3;&#x89C6;&#x56FE;&#x65B9;&#x6CD5;</span>
+    }
+    <span class="hljs-comment">// ...... &#x82E5;&#x5E72;&#x64CD;&#x4F5C;</span>
+    <span class="hljs-keyword">if</span> (mappedHandler != <span class="hljs-keyword">null</span>) {
+        mappedHandler.triggerAfterCompletion(request, response, <span class="hljs-keyword">null</span>);
+    }
+}
+</code></pre>
+<hr>
+<p>&#x89C6;&#x56FE;&#x6E32;&#x67D3;&#x5B8C;&#x6210;&#x4E4B;&#x540E;, &#x7D27;&#x63A5;&#x7740;&#x5C31;&#x8C03;&#x7528;&#x4E86;<code>triggerAfterCompletion()</code>&#x65B9;&#x6CD5;, &#x663E;&#x7136;&#x5C31;&#x662F;&#x4F9D;&#x6B21;&#x8C03;&#x7528;&#x6BCF;&#x4E2A;&#x62E6;&#x622A;&#x5668;&#x7684;<code>afterCompletion()</code>&#x65B9;&#x6CD5;...</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">triggerAfterCompletion</span><span class="hljs-params">(...)</span> <span class="hljs-keyword">throws</span> Exception </span>{
+    HandlerInterceptor[] interceptors = getInterceptors();
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-keyword">this</span>.interceptorIndex; i &gt;= <span class="hljs-number">0</span>; i--) {        <span class="hljs-comment">// &#x6CE8;&#x610F;&#x8FD9;&#x91CC;&#x662F;interceptorIndex</span>
+        HandlerInterceptor interceptor = interceptors[i];
+        interceptor.afterCompletion(request, response, <span class="hljs-keyword">this</span>.handler, ex);
+    }
+}
+</code></pre>
+<h3 id="&#x62E6;&#x622A;&#x5668;&#x6E90;&#x7801;&#x603B;&#x7ED3;">&#x62E6;&#x622A;&#x5668;&#x6E90;&#x7801;&#x603B;&#x7ED3;</h3>
+<p>&#x7ECF;&#x8FC7;&#x6211;&#x4EEC;&#x7684;&#x6E90;&#x7801;&#x5206;&#x6790; &#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x53D1;&#x73B0;<code>HanderExecutionChain</code>&#x6709;&#x5982;&#x4E0B;&#x7684;&#x4E09;&#x4E2A;&#x65B9;&#x6CD5;:</p>
+<ul>
+<li><code>applyPreHandler() {int i = 0; i &lt; interceptors.length; i++}</code><ul>
+<li><code>&#x6B63;&#x5E8F;</code> &#x4F9D;&#x6B21;&#x8C03;&#x7528;&#x6BCF;&#x4E2A;&#x62E6;&#x622A;&#x5668;&#x7684; <code>preHandler()</code>&#x65B9;&#x6CD5;</li>
+<li>&#x8BB0;&#x5F55;&#x4E00;&#x4E2A;<code>interceptorIndex</code>&#x7684;&#x53D8;&#x91CF;&#x503C;, &#x4EE3;&#x8868;&#x5DF2;&#x7ECF;&#x5904;&#x7406;&#x5B8C;&#x6210;<code>preHandler()</code>&#x65B9;&#x6CD5;&#x7684;&#x62E6;&#x622A;&#x5668;&#x4E2A;&#x6570;...</li>
+<li>&#x4E00;&#x65E6;&#x6709;&#x62E6;&#x622A;&#x5668;<code>preHandler()</code>&#x65B9;&#x6CD5;&#x8FD4;&#x56DE;<code>FALSE</code>, &#x7ACB;&#x5373;&#x8C03;&#x7528;<code>tiggerAfterComletion()</code>&#x65B9;&#x6CD5;, &#x7136;&#x540E;<code>&#x7ED3;&#x675F;&#x672C;&#x6B21;&#x8BF7;&#x6C42;&#x5904;&#x7406;(return;)</code></li>
+</ul>
+</li>
+<li><code>applyPostHandler() {for (int i = interceptors.length - 1; i &gt;= 0; i--)}</code><ul>
+<li><code>&#x9006;&#x5E8F;</code> &#x4F9D;&#x6B21;&#x8C03;&#x7528;&#x6BCF;&#x4E2A;&#x62E6;&#x622A;&#x5668;&#x7684;<code>postHandler()</code>&#x65B9;&#x6CD5;</li>
+</ul>
+</li>
+<li><code>triggerAfterCompletion() {for (int i = this.interceptorIndex; i &gt;= 0; i--)}</code><ul>
+<li><code>&#x9006;&#x5E8F;</code> &#x4F9D;&#x6B21;&#x8C03;&#x7528;==&#x5DF2;&#x7ECF;&#x6267;&#x884C;&#x5B8C;<code>preHandler()</code>&#x65B9;&#x6CD5;&#x7684;&#x62E6;&#x622A;&#x5668;==&#x7684;<code>afterCompletion()</code>&#x65B9;&#x6CD5;</li>
+</ul>
+</li>
+</ul>
+<p>&#x800C;<code>HandlerExecutionChain</code>&#x7684;&#x6267;&#x884C;&#x65F6;&#x673A;&#x5982;&#x4E0B;:</p>
+<ol>
+<li>&#x904D;&#x5386;&#x5904;&#x7406;&#x5668;&#x6620;&#x5C04;&#x5668;&#x83B7;&#x53D6;&#x5230;<code>HandlerExecutionChain</code></li>
+<li>&#x904D;&#x5386;&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668;&#x627E;&#x5230;&#x5408;&#x9002;&#x7684;&#x9002;&#x914D;&#x5668;</li>
+<li>==&#x8C03;&#x7528;&#x5904;&#x7406;&#x5668;&#x6267;&#x884C;&#x94FE;&#x7684;<code>applyPreHandler()</code>&#x65B9;&#x6CD5;==<ol>
+<li>&#x5982;&#x679C;&#x6CA1;&#x6709;&#x62E6;&#x622A;&#x5668;<code>preHandler()</code>&#x65B9;&#x6CD5;&#x8FD4;&#x56DE;<code>FALSE</code>, &#x6267;&#x884C;{4}</li>
+<li>&#x5982;&#x679C;&#x6709;, &#x6267;&#x884C;{8}</li>
+</ol>
+</li>
+<li>&#x5904;&#x7406;&#x5668;&#x9002;&#x914D;&#x5668;&#x5F00;&#x59CB;&#x5904;&#x7406;... &#x6B63;&#x5728;&#x6267;&#x884C;&#x5904;&#x7406;&#x5668;&#x65B9;&#x6CD5;</li>
+<li>==&#x8C03;&#x7528;&#x5904;&#x7406;&#x5668;&#x6267;&#x884C;&#x94FE;&#x7684;<code>applyPostHandler()</code>&#x65B9;&#x6CD5;==</li>
+<li>&#x904D;&#x5386;&#x89C6;&#x56FE;&#x89E3;&#x6790;&#x5668;&#x83B7;&#x53D6;&#x5230;<code>ModelAndView</code></li>
+<li>&#x89E3;&#x6790;&#x89C6;&#x56FE;&#x5F97;&#x5230;<code>View</code>, &#x8C03;&#x7528;&#x5176;<code>render()</code>&#x6E32;&#x67D3;&#x65B9;&#x6CD5;</li>
+<li>==&#x8C03;&#x7528;&#x5904;&#x7406;&#x5668;&#x6267;&#x884C;&#x94FE;&#x7684;<code>tiggerAfterCompletion()</code>&#x65B9;&#x6CD5;==</li>
+</ol>
+<h3 id="&#x62E6;&#x622A;&#x5668;&#x6267;&#x884C;&#x987A;&#x5E8F;">&#x62E6;&#x622A;&#x5668;&#x6267;&#x884C;&#x987A;&#x5E8F;</h3>
+<p>&#x6211;&#x4EEC;&#x5206;&#x6790;&#x5B8C;&#x62E6;&#x622A;&#x5668;&#x7684;&#x6E90;&#x7801;, &#x8FD9;&#x4E2A;&#x6267;&#x884C;&#x987A;&#x5E8F;&#x7B80;&#x76F4;&#x5DF2;&#x7ECF;&#x4E00;&#x76EE;&#x4E86;&#x7136;&#x4E86;, &#x73B0;&#x5728;&#x5047;&#x8BBE;&#x6211;&#x4EEC;&#x6709;&#x4E09;&#x4E2A;&#x62E6;&#x622A;&#x5668;: <code>Icpt1</code> <code>Icpt2</code> <code>Icpt3</code>, &#x4ED6;&#x4EEC;&#x90FD;&#x5B9E;&#x73B0;&#x4E86;<code>Pre</code> <code>Post</code> <code>After</code> &#x4E09;&#x4E2A;&#x65B9;&#x6CD5;, &#x5728;&#x4E0D;&#x540C;&#x7684;&#x62E6;&#x622A;&#x5668;<code>Pre</code>&#x65B9;&#x6CD5;&#x8FD4;&#x56DE;<code>FALSE</code>&#x7684;&#x60C5;&#x51B5;&#x4E0B;, &#x6267;&#x884C;&#x987A;&#x5E8F;&#x662F;&#x4EC0;&#x4E48;&#x6837;&#x5B50;&#x7684;&#x5462;?</p>
+<ul>
+<li><strong>&#x6CA1;&#x6709;&#x8FD4;&#x56DE;FALSE&#x7684;</strong>: <code>1Pre</code> <code>2Pre</code> <code>3Pre</code> <code>HA</code> <code>3Post</code> <code>2Post</code> <code>1Post</code> <code>3After</code> <code>2After</code> <code>1After</code></li>
+</ul>
+<ul>
+<li><strong>Icpt1-Pre&#x8FD4;&#x56DE;FALSE</strong>: <code>1Pre</code></li>
+<li><strong>Icpt2-Pre&#x8FD4;&#x56DE;FALSE</strong>: <code>1Pre</code> <code>2Pre</code> <code>1After</code> </li>
+<li><strong>Icpt3-Pre&#x8FD4;&#x56DE;FALSE</strong>:  <code>1Pre</code> <code>2Pre</code> <code>3Pre</code> <code>2After</code> <code>1After</code></li>
+</ul>
+<p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x7B80;&#x5316;&#x6211;&#x4EEC;&#x8BB0;&#x5FC6;&#x7684;&#x601D;&#x8DEF;&#x4E86;, &#x5176;&#x5B9E;&#x53EA;&#x8981;&#x8BB0;&#x4F4F;&#x5982;&#x4E0B;&#x7684;&#x4E24;&#x70B9;&#x5C31;&#x597D;&#x4E86;:</p>
+<ul>
+<li><code>Pre</code> <code>Post</code> <code>After</code> &#x4E09;&#x4E2A;&#x65B9;&#x6CD5;&#x603B;&#x662F; <code>&#x6B63;</code> <code>&#x9006;</code> <code>&#x6B63;</code> &#x7684;&#x987A;&#x5E8F;&#x53BB;&#x6267;&#x884C;</li>
+<li>&#x5DF2;&#x7ECF;&#x6267;&#x884C;&#x5B8C;&#x7684;<code>Pre</code>&#x65B9;&#x6CD5;&#x4E00;&#x5B9A;&#x8981;&#x901A;&#x8FC7;&#x5BF9;&#x5E94;&#x7684;<code>After</code>&#x6765;==&#x91CA;&#x653E;&#x8D44;&#x6E90;==</li>
+</ul>
+<h2 id="restful&#x98CE;&#x683C;">Restful&#x98CE;&#x683C;</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x8BF7;&#x6C42;&#x65B9;&#x5F0F;</th>
+<th style="text-align:center">&#x8BF7;&#x6C42;&#x8DEF;&#x5F84;</th>
+<th style="text-align:center">&#x5B9E;&#x9645;&#x542B;&#x4E49;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">POST</td>
+<td style="text-align:center">/domain</td>
+<td style="text-align:center">&#x65B0;&#x589E;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;</td>
+</tr>
+<tr>
+<td style="text-align:center">DELETE</td>
+<td style="text-align:center">/domain/{id}</td>
+<td style="text-align:center">&#x6839;&#x636E;ID&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;</td>
+</tr>
+<tr>
+<td style="text-align:center">PUT</td>
+<td style="text-align:center">/domain/{id}</td>
+<td style="text-align:center">&#x6839;&#x636E;ID&#x66F4;&#x65B0;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;</td>
+</tr>
+<tr>
+<td style="text-align:center">GET</td>
+<td style="text-align:center">/domain/{id}</td>
+<td style="text-align:center">&#x6839;&#x636E;ID&#x83B7;&#x53D6;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;</td>
+</tr>
+<tr>
+<td style="text-align:center">GET</td>
+<td style="text-align:center">/domains</td>
+<td style="text-align:center">&#x83B7;&#x53D6;&#x6240;&#x6709;&#x7684;&#x5B9E;&#x4F53;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x4E0A;&#x9762;&#x7684;ServletPath&#x5F62;&#x5F0F;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x6240;&#x8BF4;&#x7684;Restful&#x98CE;&#x683C;.........</p>
+<h3 id="hiddenhttpmethodfilter">HiddenHttpMethodFilter</h3>
+<p>&#x6D4F;&#x89C8;&#x5668;&#x7684;form&#x8868;&#x5355;&#x53EA;&#x652F;&#x6301;POST&#x548C;GET &#x800C;DELETE&#x548C;PUT&#x5E76;&#x4E0D;&#x652F;&#x6301; &#x6240;&#x4EE5;&#x8BF4;Spring&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A;&#x8FC7;&#x6EE4;&#x5668; &#x53EF;&#x4EE5;&#x5E2E;&#x52A9;&#x6211;&#x4EEC;&#x5C06;&#x8BF7;&#x6C42;&#x65B9;&#x5F0F;&#x53D8;&#x4E3A;4&#x79CD;&#x6807;&#x51C6;&#x5F62;&#x5F0F; &#x9996;&#x5148;&#x6211;&#x4EEC;&#x5E94;&#x8BE5;&#x5728;<code>web.xml</code>&#x5F53;&#x4E2D;&#x8FDB;&#x884C;&#x914D;&#x7F6E;:</p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">filter</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">filter-name</span>&gt;</span>hiddenHttpMethodFilter<span class="hljs-tag">&lt;/<span class="hljs-name">filter-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">filter-class</span>&gt;</span>org.springframework.web.filter.HiddenHttpMethodFilter<span class="hljs-tag">&lt;/<span class="hljs-name">filter-class</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">filter</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">filter-mapping</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">filter-name</span>&gt;</span>hiddenHttpMethodFilter<span class="hljs-tag">&lt;/<span class="hljs-name">filter-name</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">url-pattern</span>&gt;</span>/*<span class="hljs-tag">&lt;/<span class="hljs-name">url-pattern</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">filter-mapping</span>&gt;</span>
+</code></pre>
+<p>&#x8FD9;&#x4E2A;&#x8FC7;&#x6EE4;&#x5668;&#x6267;&#x884C;&#x7684;&#x539F;&#x7406;&#x5C31;&#x662F;&#x6839;&#x636E;&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#x4E2D;<code>_method</code>&#x7684;&#x503C;&#x5C06;POST&#x8BF7;&#x6C42;&#x8F6C;&#x6362;&#x4E3A;&#x6307;&#x5B9A;&#x7684;&#x8BF7;&#x6C42;</p>
+<pre><code class="lang-jsp">&lt;form action=&quot;${pageContext.request.contextPath}/domain/1&quot; method=&quot;post&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;_method&quot; value=&quot;GET&quot;&gt;
+    &lt;button&gt;Submit! GET&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;form action=&quot;${pageContext.request.contextPath}/domain&quot; method=&quot;post&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;_method&quot; value=&quot;POST&quot;&gt;
+    &lt;button&gt;Submit! POST&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;form action=&quot;${pageContext.request.contextPath}/domain/1&quot; method=&quot;post&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;_method&quot; value=&quot;PUT&quot;&gt;
+    &lt;button&gt;Submit! PUT&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;form action=&quot;${pageContext.request.contextPath}/domain/1&quot; method=&quot;post&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;_method&quot; value=&quot;DELETE&quot;&gt;
+    &lt;button&gt;Submit! DELETE&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+<p>&#x800C;&#x5728;&#x63A7;&#x5236;&#x5668;&#x5F53;&#x4E2D; &#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x4E0D;&#x540C;&#x7684;&#x8BF7;&#x6C42;&#x65B9;&#x5F0F;&#x6765;&#x8BBF;&#x95EE;&#x5230;&#x4E0D;&#x540C;&#x7684;&#x5904;&#x7406;&#x5668;:</p>
+<pre><code class="lang-java"><span class="hljs-comment">// &#x65B0;&#x589E;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;</span>
+<span class="hljs-meta">@RequestMapping</span>(value = <span class="hljs-string">&quot;/domain&quot;</span>, method = RequestMethod.POST)
+<span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">add</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>;
+}
+
+<span class="hljs-comment">// &#x66F4;&#x65B0;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;</span>
+<span class="hljs-meta">@RequestMapping</span>(value = <span class="hljs-string">&quot;/domain/{id}&quot;</span>, method = RequestMethod.PUT)
+<span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">update</span><span class="hljs-params">(@PathVariable(<span class="hljs-string">&quot;id&quot;</span>)</span> Integer id) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>;
+}
+
+<span class="hljs-comment">// &#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;</span>
+<span class="hljs-meta">@RequestMapping</span>(value = <span class="hljs-string">&quot;/domain/{id}&quot;</span>, method = RequestMethod.DELETE)
+<span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">delete</span><span class="hljs-params">(@PathVariable(<span class="hljs-string">&quot;id&quot;</span>)</span> Integer id) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>;
+}
+
+<span class="hljs-comment">// &#x67E5;&#x627E;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;</span>
+<span class="hljs-meta">@RequestMapping</span>(value = <span class="hljs-string">&quot;/domain/{id}&quot;</span>, method = RequestMethod.GET)
+<span class="hljs-function"><span class="hljs-keyword">public</span> ModelAndView <span class="hljs-title">find</span><span class="hljs-params">(@PathVariable(<span class="hljs-string">&quot;id&quot;</span>)</span> Integer id) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">null</span>;
+}
+</code></pre>
+<h2 id="&#x56FD;&#x9645;&#x5316;">&#x56FD;&#x9645;&#x5316;</h2>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="spring-cloud.html" class="navigation navigation-prev " aria-label="Previous page: spring-cloud">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="mybatis.html" class="navigation navigation-next " aria-label="Next page: mybatis">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"spring-mvc","level":"1.2.3.4","depth":3,"next":{"title":"mybatis","level":"1.2.3.5","depth":3,"path":"computer/framework/mybatis.md","ref":"computer/framework/mybatis.md","articles":[]},"previous":{"title":"spring-cloud","level":"1.2.3.3","depth":3,"path":"computer/framework/spring-cloud.md","ref":"computer/framework/spring-cloud.md","articles":[]},"dir":"ltr"},"config":{"plugins":["code","back-to-top-button","splitter","page-treeview","expandable-chapters"],"root":".","styles":{"website":"assets/styles/website.less","ebook":"assets/styles/ebook.less","pdf":"assets/styles/pdf.less","mobi":"assets/styles/mobi.less","epub":"assets/styles/epub.less"},"pluginsConfig":{"page-treeview":{"copyright":"Copyright © aleen42","minHeaderCount":"1","minHeaderDeep":"1"},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"堕小烯","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"堕小烯笔记","language":"zh-hans","output.name":"site","links":{},"gitbook":"3.2.3","description":"摸了"},"file":{"path":"computer/framework/spring-mvc.md","mtime":"2019-12-04T11:28:47.880Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-05T12:48:01.743Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

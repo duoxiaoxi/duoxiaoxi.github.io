@@ -1,0 +1,1024 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>redis · 堕小烯笔记</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="堕小烯">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-treeview/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="nginx.html" />
+    
+    
+    <link rel="prev" href="oracle.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    readme
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    computer
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" >
+            
+                <span>
+            
+                    
+                    system
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="../system/linux.html">
+            
+                <a href="../system/linux.html">
+            
+                    
+                    linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <span>
+            
+                    
+                    service
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="mysql.html">
+            
+                <a href="mysql.html">
+            
+                    
+                    mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="oracle.html">
+            
+                <a href="oracle.html">
+            
+                    
+                    oracle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2.3" data-path="redis.html">
+            
+                <a href="redis.html">
+            
+                    
+                    redis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.4" data-path="nginx.html">
+            
+                <a href="nginx.html">
+            
+                    
+                    nginx
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.5" data-path="active-mq.html">
+            
+                <a href="active-mq.html">
+            
+                    
+                    active-mq
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.6" data-path="rabbit-mq.html">
+            
+                <a href="rabbit-mq.html">
+            
+                    
+                    rabbit-mq
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" >
+            
+                <span>
+            
+                    
+                    framework
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../framework/spring.html">
+            
+                <a href="../framework/spring.html">
+            
+                    
+                    spring
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="../framework/spring-boot.html">
+            
+                <a href="../framework/spring-boot.html">
+            
+                    
+                    spring-boot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3" data-path="../framework/spring-cloud.html">
+            
+                <a href="../framework/spring-cloud.html">
+            
+                    
+                    spring-cloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4" data-path="../framework/spring-mvc.html">
+            
+                <a href="../framework/spring-mvc.html">
+            
+                    
+                    spring-mvc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.5" data-path="../framework/mybatis.html">
+            
+                <a href="../framework/mybatis.html">
+            
+                    
+                    mybatis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.6" data-path="../framework/mybatis-plus.html">
+            
+                <a href="../framework/mybatis-plus.html">
+            
+                    
+                    mybatis-plus
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" >
+            
+                <span>
+            
+                    
+                    tools
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.1" data-path="../tools/git.html">
+            
+                <a href="../tools/git.html">
+            
+                    
+                    git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2" data-path="../tools/maven.html">
+            
+                <a href="../tools/maven.html">
+            
+                    
+                    maven
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.3" data-path="../tools/docker.html">
+            
+                <a href="../tools/docker.html">
+            
+                    
+                    docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.4" data-path="../tools/jenkins.html">
+            
+                <a href="../tools/jenkins.html">
+            
+                    
+                    jenkins
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" >
+            
+                <span>
+            
+                    
+                    other
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1" data-path="../other/thymeleaf.html">
+            
+                <a href="../other/thymeleaf.html">
+            
+                    
+                    thymeleaf
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    janpanese
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../janpanese/assignment.html">
+            
+                <a href="../../janpanese/assignment.html">
+            
+                    
+                    assignment
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    game
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../game/game-history.html">
+            
+                <a href="../../game/game-history.html">
+            
+                    
+                    game-history
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../game/game-company.html">
+            
+                <a href="../../game/game-company.html">
+            
+                    
+                    game-company
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    work
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../work/地址.html">
+            
+                <a href="../../work/地址.html">
+            
+                    
+                    地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../work/老铁建BUG修改记录.html">
+            
+                <a href="../../work/老铁建BUG修改记录.html">
+            
+                    
+                    老铁建BUG修改记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >redis</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div class="treeview__container"><div class="treeview__container-title"><span class="treeview__main-title">Treeview</span><span class="treeview__copyright">Copyright &#xA9; aleen42 all right reserved, powered by <a href="https://github.com/aleen42" target="_blank">aleen42</a></span></div><ul>
+<li><div><a href="#&#x5B89;&#x88C5;">&#x5B89;&#x88C5;</a><i></i></div></li>
+<li><div><a href="#&#x547D;&#x4EE4;">&#x547D;&#x4EE4;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#&#x601D;&#x60F3;">&#x601D;&#x60F3;</a><i></i></div></li>
+<li><div><a href="#&#x57FA;&#x672C;&#x547D;&#x4EE4;">&#x57FA;&#x672C;&#x547D;&#x4EE4;</a><i></i></div></li>
+<li><div><a href="#string&#x547D;&#x4EE4;">String&#x547D;&#x4EE4;</a><i></i></div></li>
+<li><div><a href="#list&#x547D;&#x4EE4;">List&#x547D;&#x4EE4;</a><i></i></div></li>
+<li><div><a href="#set&#x547D;&#x4EE4;">Set&#x547D;&#x4EE4;</a><i></i></div></li>
+<li><div><a href="#hash&#x547D;&#x4EE4;">Hash&#x547D;&#x4EE4;</a><i></i></div></li>
+</ul></li>
+<li><div><a href="#jedis">Jedis</a><i></i></div></li>
+<li><div><a href="#&#x6301;&#x4E45;&#x5316;">&#x6301;&#x4E45;&#x5316;</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#rdb">RDB</a><i></i></div></li>
+<li><div><a href="#aof">AOF</a><i class="level__parent level__item level__parent--opened" state="opened" onclick="var curState = this.getAttribute(&apos;state&apos;);var nextState = curState === &apos;opened&apos; ? &apos;hidden&apos; : &apos;opened&apos;;this.setAttribute(&apos;state&apos;, nextState);this.className = this.className.split(curState).join(nextState);var list = this.parentNode.nextElementSibling;if (nextState === &apos;hidden&apos;) {    list.style.display = &apos;none&apos;;} else {    list.style.display = &apos;block&apos;;}"></i></div>
+<ul>
+<li><div><a href="#rdb&#x548C;aof&#x540C;&#x65F6;&#x5F00;&#x542F;-&#x542C;&#x8C01;&#x7684;">RDB&#x548C;AOF&#x540C;&#x65F6;&#x5F00;&#x542F; &#x542C;&#x8C01;&#x7684;?</a><i></i></div></li>
+<li><div><a href="#aop&#x6587;&#x4EF6;&#x9F13;&#x638C;&#x6062;&#x590D;">AOP&#x6587;&#x4EF6;&#x9F13;&#x638C;&#x6062;&#x590D;</a><i></i></div></li>
+<li><div><a href="#&#x5F02;&#x5E38;-cant-open-the-append-only-file-permission-denied">&#x5F02;&#x5E38;: Can&apos;t open the append-only file Permission denied</a><i></i></div></li>
+</ul></li>
+</ul></li>
+<li><div><a href="#&#x4E3B;&#x4ECE;&#x590D;&#x5236;&#x8BFB;&#x5199;&#x5206;&#x79BB;">&#x4E3B;&#x4ECE;&#x590D;&#x5236;&amp;&#x8BFB;&#x5199;&#x5206;&#x79BB;</a><i></i></div></li>
+</ul>
+</div>
+
+<h1 id="redis">Redis</h1>
+<p>&#x6211;&#x4EEC;&#x5B66;&#x4E60;Java&#x5DF2;&#x7ECF;&#x7ECF;&#x5386;&#x4E86;&#x5F88;&#x591A;&#x6280;&#x672F; &#x90A3;&#x4E48;&#x6211;&#x4EEC;&#x5B66;&#x8FC7;&#x7684;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x5982;&#x4F55;&#x5206;&#x7C7B;&#x5462;?</p>
+<ul>
+<li><code>&#x89E3;&#x51B3;&#x529F;&#x80FD;&#x6027;&#x95EE;&#x9898;</code>: Java, JSP, Servlet, Tomcat, Html, Linux, Jdbc, MySQL</li>
+<li><code>&#x89E3;&#x51B3;&#x62D3;&#x5C55;&#x6027;&#x95EE;&#x9898;</code>: Struts2, Hibernate, Spring, SpringMVC, MyBatis</li>
+<li><code>&#x89E3;&#x51B3;&#x6027;&#x80FD;&#x95EE;&#x9898;</code>: NoSQL, Java&#x7EBF;&#x7A0B;, Nginx, RabbitMQ, Hadoop</li>
+</ul>
+<p>NoSQL&#x6570;&#x636E;&#x5E93;&#x9002;&#x5408;&#x7684;&#x4F7F;&#x7528;&#x573A;&#x666F;:</p>
+<ul>
+<li>&#x9AD8;&#x5E76;&#x53D1;&#x8BFB;&#x5199;</li>
+<li>&#x6D77;&#x91CF;&#x6570;&#x636E;&#x8BFB;&#x5199;</li>
+<li>&#x8981;&#x6C42;&#x6570;&#x636E;&#x9AD8;&#x53EF;&#x62D3;&#x5C55;&#x6027;</li>
+</ul>
+<p>NoSQL&#x6570;&#x636E;&#x5E93;&#x4E0D;&#x9002;&#x5408;&#x7684;&#x4F7F;&#x7528;&#x573A;&#x666F;:</p>
+<ul>
+<li>&#x9700;&#x8981;&#x4E8B;&#x52A1;&#x652F;&#x6301;</li>
+<li>&#x5904;&#x7406;&#x590D;&#x6742;&#x7684;&#x5173;&#x7CFB;</li>
+</ul>
+<p>&#x5E38;&#x89C1;&#x7684;NoSQL&#x6570;&#x636E;&#x5E93;</p>
+<ul>
+<li><code>Memcached</code>: key-value&#x578B;&#x6570;&#x636E;&#x5E93;, &#x4E0D;&#x652F;&#x6301;&#x6301;&#x4E45;&#x5316;</li>
+<li><code>Redis</code>: key-value&#x578B;&#x6570;&#x636E;&#x5E93;, &#x652F;&#x6301;&#x6301;&#x4E45;&#x5316;</li>
+<li><p><code>mongoDB</code>: &#x6587;&#x6863;&#x578B;&#x6570;&#x636E;&#x5E93;</p>
+</li>
+<li><p><code>HBase</code>: Hadoop&#x9879;&#x76EE;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x5E93;</p>
+</li>
+</ul>
+<p><img src="1553847138292.png" alt="1553847138292"></p>
+<h2 id="&#x5B89;&#x88C5;">&#x5B89;&#x88C5;</h2>
+<p><a href="https://redis.io/" target="_blank">https://redis.io/</a></p>
+<h2 id="&#x547D;&#x4EE4;">&#x547D;&#x4EE4;</h2>
+<h3 id="&#x601D;&#x60F3;">&#x601D;&#x60F3;</h3>
+<p>Redis&#x7684;&#x672C;&#x8D28;&#x5C31;Java&#x8BED;&#x8A00;&#x6765;&#x8BF4;&#x5C31;&#x662F;<code>Map&lt;String, ?&gt;</code> &#x6211;&#x4EEC;&#x5E73;&#x5E38;&#x8BF4;&#x7684;Redis&#x652F;&#x6301;&#x7684;5&#x4E2D;&#x6570;&#x636E;&#x7C7B;&#x578B; &#x6307;&#x7684;&#x662F;Map&#x4E2D;&#x503C;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;, &#x4ED6;&#x4EEC;&#x90FD;&#x901A;&#x8FC7;&#x952E;&#x6765;&#x552F;&#x4E00;&#x7684;&#x786E;&#x5B9A;&#x4E86;...</p>
+<ul>
+<li>Redis&#x4E2D;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x6307;&#x7684;&#x662F;<strong>Map&#x4E2D;&#x7684;&#x503C;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;</strong></li>
+<li>&#x4E0D;&#x540C;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x7684;&#x5BF9;&#x8C61;&#x7684;<strong>&#x67E5;&#x770B;, &#x6DFB;&#x52A0;,&#x4FEE;&#x6539;&#x7684;&#x65B9;&#x5F0F;&#x4E0D;&#x540C;</strong><ul>
+<li>&#x4F8B;&#x5982;&#x5B57;&#x7B26;&#x4E32;&#x901A;&#x8FC7; <code>get &amp; set</code> &#x67E5;&#x770B; &#x548C; &#x6DFB;&#x52A0;, &#x4F46;&#x662F;&#x5217;&#x8868;&#x901A;&#x8FC7;<code>lpush &amp; lrange</code> &#x6765;...</li>
+</ul>
+</li>
+</ul>
+<h3 id="&#x57FA;&#x672C;&#x547D;&#x4EE4;">&#x57FA;&#x672C;&#x547D;&#x4EE4;</h3>
+<ul>
+<li><code>redis-server ../conf/redis.conf</code>: &#x542F;&#x52A8;redis&#x670D;&#x52A1;&#x5668; &#x6307;&#x5B9A;&#x914D;&#x7F6E;&#x6587;&#x4EF6; &#x9ED8;&#x8BA4;&#x8FD0;&#x884C;&#x5728;==6379==&#x7AEF;&#x53E3;</li>
+<li><code>redis-cli -h host - p port -a password</code>: &#x4E0E;&#x670D;&#x52A1;&#x5668;&#x5EFA;&#x7ACB;&#x4EA4;&#x4E92;<ul>
+<li><code>redis-cli</code>: &#x53EF;&#x4EE5;&#x4E0D;&#x6307;&#x5B9A;&#x4EFB;&#x4F55;&#x53C2;&#x6570; &#x9ED8;&#x8BA4;&#x53BB;&#x8BBF;&#x95EE;==127.0.0.0:6379==</li>
+</ul>
+</li>
+<li><code>redis-cli shutdown</code>: &#x901A;&#x77E5;&#x670D;&#x52A1;&#x5668;&#x5173;&#x95ED;</li>
+<li><code>ping</code>: &#x6D4B;&#x8BD5;&#x8FDE;&#x901A;&#x6027;</li>
+<li><code>config get {pattern}</code>: &#x67E5;&#x770B;&#x6570;&#x636E;&#x5E93;&#x7684;&#x914D;&#x7F6E;&#x4FE1;&#x606F;</li>
+<li><code>select {0-15}</code>: &#x9009;&#x4E2D;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x5E93; &#x4E00;&#x5171;16&#x4E2A;</li>
+<li><code>keys {pattern}</code>: &#x7528;&#x4E8E;&#x67E5;&#x770B;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x952E;<ul>
+<li><code>*</code>: &#x4EE3;&#x8868;&#x4EFB;&#x610F;&#x5B57;&#x7B26;&#x4EFB;&#x610F;&#x4E2A;</li>
+<li><code>?</code>: &#x4EE3;&#x8868;&#x4E00;&#x4E2A;&#x4EFB;&#x610F;&#x5B57;&#x7B26;</li>
+</ul>
+</li>
+<li><code>exists {key}</code>: &#x5224;&#x65AD;&#x67D0;&#x4E2A;&#x952E;&#x503C;&#x5BF9;&#x662F;&#x5426;&#x5B58;&#x5728;</li>
+<li><code>type {key}</code>: &#x67E5;&#x770B;&#x67D0;&#x4E2A;&#x952E;&#x503C;&#x5BF9;&#x7684;&#x7C7B;&#x578B;</li>
+<li><code>del {key}</code>: &#x5220;&#x9664;&#x67D0;&#x4E2A;&#x952E;&#x503C;&#x5BF9;</li>
+<li><code>rename {key} {newname}</code>: &#x4FEE;&#x6539;&#x952E;&#x7684;&#x540D;&#x79F0;<ul>
+<li><code>renameNX {key} {newname}</code>: &#x4FEE;&#x6539;&#x952E;&#x7684;&#x540D;&#x79F0; &#x5F53;&#x952E;&#x503C;&#x5BF9;&#x5B58;&#x5728;&#x7684;&#x60C5;&#x51B5;&#x4E0B;</li>
+</ul>
+</li>
+<li><code>move {key} {dbid}</code>: &#x79FB;&#x52A8;&#x67D0;&#x4E2A;&#x952E;&#x503C;&#x5BF9;&#x5230;&#x5176;&#x4ED6;&#x6570;&#x636E;&#x5E93;</li>
+<li><code>expire {key} {second}</code>: &#x4E3A;&#x6307;&#x5B9A;&#x7684;&#x952E;&#x503C;&#x5BF9;&#x8BBE;&#x5B9A;&#x8FC7;&#x671F;&#x65F6;&#x95F4;<ul>
+<li><code>pexpire {key} {millisecond}</code>: &#x8BBE;&#x5B9A;&#x6BEB;&#x79D2;&#x4E3A;&#x5355;&#x4F4D;&#x7684;&#x8FC7;&#x6C14;&#x65F6;&#x95F4;</li>
+</ul>
+</li>
+<li><code>ttl {key}</code>: &#x67E5;&#x770B;&#x67D0;&#x4E2A;&#x952E;&#x503C;&#x5BF9;&#x7684;&#x8FC7;&#x6C14;&#x65F6;&#x95F4;<ul>
+<li><code>pttl {key}</code>: &#x8FD4;&#x56DE;&#x6BEB;&#x79D2;&#x7684;&#x8FC7;&#x671F;&#x65F6;&#x95F4;</li>
+<li><code>return -1</code>: &#x4EE3;&#x8868;&#x4E0D;&#x4F1A;&#x8FC7;&#x671F; &#x6C38;&#x4E45;&#x6709;&#x6548;</li>
+<li><code>return -2</code>: &#x4EE3;&#x8868;&#x952E;&#x4E0D;&#x5B58;&#x5728;</li>
+<li>==tip: redis2.8 &#x7248;&#x672C;&#x4EE5;&#x524D; &#x65E0;&#x8BBA;&#x662F;&#x6C38;&#x4E45;&#x6709;&#x6548; &#x8FD8;&#x662F;&#x952E;&#x4E0D;&#x5B58;&#x5728; &#x90FD;&#x8FD4;&#x56DE;-1==</li>
+</ul>
+</li>
+<li><code>persist {key}</code>: &#x79FB;&#x9664;&#x67D0;&#x4E2A;key&#x7684;&#x8FC7;&#x671F;&#x65F6;&#x95F4;, &#x4E5F;&#x5C31;&#x662F;&#x6C38;&#x4E0D;&#x8FC7;&#x671F;</li>
+<li><code>randomkey</code>: &#x968F;&#x673A;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;key</li>
+<li><code>dbsize</code>: &#x67E5;&#x770B;&#x5F53;&#x524D;&#x6570;&#x636E;&#x5E93;&#x62E5;&#x6709;&#x591A;&#x5C11;&#x4E2A;&#x952E;&#x503C;&#x5BF9;</li>
+<li><code>flushdb</code>: &#x6E05;&#x7A7A;&#x5F53;&#x524D;&#x6570;&#x636E;&#x5E93;</li>
+<li><code>flushall</code>: &#x6E05;&#x7A7A;&#x6240;&#x6709;&#x6570;&#x636E;&#x5E93;</li>
+</ul>
+<h3 id="string&#x547D;&#x4EE4;">String&#x547D;&#x4EE4;</h3>
+<ul>
+<li><code>set {key} {str}</code>: &#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x7C7B;&#x578B;&#x7684;&#x952E;&#x503C;&#x5BF9; <strong>&#x5982;&#x679C;&#x952E;&#x5DF2;&#x7ECF;&#x5B58;&#x5728; &#x4F1A;&#x8986;&#x76D6;&#x503C;</strong><ul>
+<li><code>setNX {key} {str}</code>: &#x5982;&#x679C;&#x4E0D;&#x5B58;&#x5728;&#x624D;&#x53BB;&#x6DFB;&#x52A0; <strong>&#x5982;&#x679C;&#x952E;&#x5DF2;&#x7ECF;&#x5B58;&#x5728; &#x4E0D;&#x4F1A;&#x8986;&#x76D6;&#x503C;</strong></li>
+<li><code>setEX {key} {second} {str}</code>: &#x6DFB;&#x52A0;&#x5B57;&#x7B26;&#x4E32; &#x5E76;&#x4E14;  &#x8BBE;&#x7F6E;&#x597D;&#x8FC7;&#x671F;&#x65F6;&#x95F4;</li>
+<li><code>PsetEX {key} {second} {str}</code>: &#x548C;&#x4E0A;&#x9762;&#x7684;&#x547D;&#x4EE4;&#x76F8;&#x540C; &#x4F46;&#x662F;&#x6309;&#x7167;&#x6BEB;&#x79D2;&#x6765;</li>
+<li><code>mset {key1} {str1} {key2} {str2}...</code>: &#x6279;&#x91CF;&#x6DFB;&#x52A0;&#x5B57;&#x7B26;&#x4E32;</li>
+<li><code>msetNX {key1} {str1}...</code>: &#x6279;&#x91CF;&#x6DFB;&#x52A0;&#x5B57;&#x7B26;&#x4E32; &#x53EA;&#x5728;&#x6307;&#x5B9A;&#x7684;&#x952E;&#x4E0D;&#x5B58;&#x5728;&#x7684;&#x65F6;&#x5019;</li>
+</ul>
+</li>
+<li><code>get {key}</code>: &#x67E5;&#x770B;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x5185;&#x5BB9;<ul>
+<li><code>mget {k1} {k2}...</code>: &#x4E00;&#x6B21;&#x6027;&#x83B7;&#x53D6;&#x591A;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x5185;&#x5BB9;</li>
+</ul>
+</li>
+<li><code>getset {key} {newvalue}</code>: &#x8BBE;&#x7F6E;&#x65B0;&#x503C; &#x8FD4;&#x56DE;&#x65E7;&#x503C;</li>
+<li><code>getrange {key} m n</code>: &#x83B7;&#x53D6;&#x5B50;&#x4E32;<code>[m, n]</code>&#x4ECE;<code>1</code>&#x5F00;&#x59CB; &#x652F;&#x6301;&#x8D1F;&#x6570;&#x7D22;&#x5F15;</li>
+<li><code>strrange {key} {offset} {rep}</code>: &#x4ECE;offset&#x5F00;&#x59CB; &#x4F7F;&#x7528;rep&#x66FF;&#x6362;</li>
+<li><code>append {key} {apd}</code>: &#x5728;&#x6307;&#x5B9A;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x672B;&#x5C3E;&#x8FFD;&#x52A0;<code>apd</code></li>
+<li><code>strlen {key}</code>: &#x83B7;&#x53D6;&#x6307;&#x5B9A;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x957F;&#x5EA6;</li>
+<li><code>incr {key}</code>: &#x5C06;&#x6307;&#x5B9A;&#x7684;&#x6570;&#x5B57; &#x81EA;&#x589E;1<ul>
+<li><code>incrby {key} n</code>: &#x5C06;&#x6307;&#x5B9A;&#x7684;&#x6570;&#x5B57; &#x81EA;&#x589E;n</li>
+<li><code>incrbyFloat {key} f</code>: &#x5C06;&#x6307;&#x5B9A;&#x7684;&#x6570;&#x5B57; &#x81EA;&#x589E;float</li>
+</ul>
+</li>
+<li><code>decr {key}</code>: &#x5C06;&#x5236;&#x5B9A;&#x7684;&#x6570;&#x5B57; &#x81EA;&#x51CF;1<ul>
+<li><code>decry by {key} n</code>: &#x5C06;&#x6307;&#x5B9A;&#x7684;&#x6570;&#x5B57; &#x81EA;&#x51CF;n</li>
+</ul>
+</li>
+</ul>
+<h3 id="list&#x547D;&#x4EE4;">List&#x547D;&#x4EE4;</h3>
+<ul>
+<li><code>lpush key value1 value2...</code>: &#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x5217;&#x8868; &#x7136;&#x540E;&#x4ECE;&#x5DE6;&#x4FA7;&#x4F9D;&#x6B21;&#x63A8;&#x5165;&#x82E5;&#x5E72;&#x5143;&#x7D20;<ul>
+<li>==tip: 2.4&#x7248;&#x672C;&#x4E4B;&#x524D;&#x662F;&#x4E0D;&#x652F;&#x6301;&#x63A8;&#x5165;&#x591A;&#x4E2A;&#x5143;&#x7D20;&#x7684; &#x53EA;&#x652F;&#x6301;&#x4E00;&#x4E2A;&#x5143;&#x7D20;==</li>
+<li><code>rpush key value1 value2...</code>: &#x540C;&#x7406; &#x4ECE;&#x53F3;&#x4FA7;&#x63A8;&#x5165;</li>
+</ul>
+</li>
+<li><p><code>lpushX key value1 value2...</code>: &#x5217;&#x8868;&#x5B58;&#x5728;&#x7684;&#x60C5;&#x51B5;&#x4E0B; &#x624D;&#x4F1A;&#x8FDB;&#x884C;&#x63A8;&#x9001;</p>
+<ul>
+<li><code>rpushX key value1 value2...</code>: &#x540C;&#x7406;</li>
+</ul>
+</li>
+<li><code>lpop key</code>: &#x5DE6;&#x4FA7;&#x79FB;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20;</li>
+<li><code>rpop key</code>: &#x53F3;&#x4FA7;&#x79FB;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20;</li>
+<li><code>RpopLpush source target</code>: &#x79FB;&#x9664;source&#x5217;&#x8868;&#x7684;&#x53F3;&#x4FA7;&#x4E00;&#x4E2A;&#x5143;&#x7D20; &#x586B;&#x5145;&#x5230;target&#x5217;&#x8868;&#x7684;&#x5DE6;&#x4FA7;</li>
+<li><code>LLEN key</code>: &#x83B7;&#x53D6;&#x5217;&#x8868;&#x7684;&#x957F;&#x5EA6;</li>
+<li><p><code>Lindex key index</code>: &#x901A;&#x8FC7;&#x4E0B;&#x6807;&#x6765;&#x83B7;&#x53D6;&#x5143;&#x7D20; &#x4ECE;<code>0</code>&#x5F00;&#x59CB;</p>
+</li>
+<li><p><code>Lrange key m n</code>: &#x67E5;&#x770B;&#x5B50;&#x5217;&#x8868; <code>[m, n]</code> &#x4ECE;<code>0</code>&#x5F00;&#x59CB;</p>
+</li>
+<li><p><code>Lset key index value</code>: &#x901A;&#x8FC7;&#x4E0B;&#x6807;&#x8BBE;&#x7F6E;&#x5143;&#x7D20;&#x7684;&#x503C;</p>
+</li>
+<li><p><code>Lrem key count value</code>: &#x4ECE;&#x5217;&#x8868;&#x4E2D;&#x5220;&#x9664;count&#x4E2A;&#x503C;&#x4E3A;value&#x7684;&#x5143;&#x7D20;</p>
+<ul>
+<li>count &gt; 0: &#x4ECE;&#x5DE6;&#x8FB9;&#x5F00;&#x59CB;&#x5220;&#x9664;</li>
+<li>count &lt; 0: &#x4ECE;&#x53F3;&#x8FB9;&#x5F00;&#x59CB;&#x5220;&#x9664;</li>
+<li>count = 0: &#x5168;&#x90E8;&#x5220;&#x9664;</li>
+</ul>
+</li>
+<li><p><code>Ltrim key m n</code>: &#x5C06;&#x5217;&#x8868;&#x4FEE;&#x526A;&#x4E3A;<code>[m, n]</code> &#x4ECE;<code>0</code>&#x5F00;&#x59CB;</p>
+</li>
+<li><p><code>Linsert key BEFORE|AFTER pivot value</code>:  &#x5728;&#x503C;&#x4E3A;pivot&#x7684;&#x5143;&#x7D20;&#x524D;&#x540E;&#x63D2;&#x5165;&#x4E00;&#x4E2A;&#x503C;</p>
+</li>
+</ul>
+<h3 id="set&#x547D;&#x4EE4;">Set&#x547D;&#x4EE4;</h3>
+<ul>
+<li><code>sadd key mem1 mem2...</code>: &#x65B0;&#x5EFA;&#x6216;&#x8005;&#x4FEE;&#x6539;&#x4E00;&#x4E2A;&#x96C6;&#x5408; &#x6DFB;&#x52A0;&#x82E5;&#x5E72;&#x4E2A;&#x503C;<ul>
+<li>==tip: &#x540C;&#x6837;&#x7684; 2.4&#x4E4B;&#x524D;&#x53EA;&#x652F;&#x6301;&#x5355;&#x4E2A;&#x503C;==</li>
+</ul>
+</li>
+<li><code>scard key</code>: &#x83B7;&#x53D6;&#x96C6;&#x5408;&#x4E2D;&#x7684;&#x6210;&#x5458;&#x6570;</li>
+<li><code>sIsMember key mem</code>: &#x5224;&#x65AD;&#x67D0;&#x4E2A;&#x5143;&#x7D20;&#x662F;&#x5426;&#x5C5E;&#x4E8E;&#x6307;&#x5B9A;&#x96C6;&#x5408;</li>
+<li><code>Smembers</code>: &#x83B7;&#x53D6;&#x96C6;&#x5408;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x5143;&#x7D20;</li>
+<li><code>Smove source target mem</code>: &#x5C06;&#x6307;&#x5B9A;&#x7684;&#x5143;&#x7D20;&#x4ECE;source&#x79FB;&#x52A8;&#x5230;target</li>
+<li><code>Spop key</code>: &#x968F;&#x673A;&#x79FB;&#x9664;&#x4E00;&#x4E2A;&#x5143;&#x7D20;</li>
+<li><code>Srem key mem1 mem2...</code>: &#x79FB;&#x9664;&#x591A;&#x4E2A;&#x503C;&#x4E3A;mem&#x7684;&#x5143;&#x7D20;</li>
+<li><code>sRandMember key count</code>: &#x968F;&#x673A;&#x8FD4;&#x56DE;count&#x4E2A;&#x5143;&#x7D20;</li>
+<li><code>Sunion key1 key2...</code>: &#x8FD4;&#x56DE;&#x6240;&#x6709;&#x6307;&#x5B9A;&#x96C6;&#x5408;&#x7684;&#x5E76;&#x96C6;<ul>
+<li><code>SunionStore target key1 key2...</code>: &#x8FD4;&#x56DE;&#x6240;&#x6709;&#x6307;&#x5B9A;&#x96C6;&#x5408;&#x7684;&#x5E76;&#x96C6; &#x7136;&#x540E;&#x5B58;&#x50A8;&#x5728;target&#x5F53;&#x4E2D;</li>
+</ul>
+</li>
+<li><code>Sinter key1 key2...</code>: &#x8FD4;&#x56DE;&#x6240;&#x6709;&#x6307;&#x5B9A;&#x96C6;&#x5408;&#x7684;&#x4EA4;&#x96C6;</li>
+<li><code>Sdiff key1 key2...</code>: &#x8FD4;&#x56DE;&#x6240;&#x6709;&#x6307;&#x5B9A;&#x96C6;&#x5408;&#x7684;&#x5DEE;&#x96C6;<ul>
+<li>&#x540C;&#x7406;&#x4F1A;&#x6709;<code>SinterStore</code> <code>SdiffStore</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="hash&#x547D;&#x4EE4;">Hash&#x547D;&#x4EE4;</h3>
+<ul>
+<li><code>Hset key field value</code>: &#x8BBE;&#x7F6E;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;<ul>
+<li><code>HsetNX key field value</code>: &#x53EA;&#x6709;&#x5728;&#x5C5E;&#x6027;&#x4E0D;&#x5B58;&#x5728;&#x7684;&#x65F6;&#x5019; &#x624D;&#x4F1A;&#x53BB;&#x8BBE;&#x7F6E;</li>
+<li><code>HMset key f1 v1 f2 v2...</code>: &#x8BBE;&#x7F6E;&#x591A;&#x4E2A;&#x5C5E;&#x6027;</li>
+</ul>
+</li>
+<li><code>Hget key field</code>: &#x83B7;&#x53D6;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x503C;<ul>
+<li><code>HMget f1 f2...</code>: &#x83B7;&#x53D6;&#x591A;&#x4E2A;&#x5C5E;&#x6027;</li>
+</ul>
+</li>
+<li><code>Hexists key field</code>: &#x5224;&#x65AD;&#x67D0;&#x4E2A;&#x5C5E;&#x6027;&#x662F;&#x5426;&#x5B58;&#x5728;</li>
+<li><code>Hlen key</code>: &#x83B7;&#x53D6;&#x5C5E;&#x6027;&#x7684;&#x6570;&#x91CF;</li>
+<li><code>Hdel key field1 field2...</code>: &#x5220;&#x9664;&#x4E00;&#x4E2A;&#x6216;&#x8005;&#x591A;&#x4E2A;&#x5C5E;&#x6027;</li>
+<li><code>Hvals key</code>: &#x83B7;&#x53D6;&#x54C8;&#x5E0C;&#x8868;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x503C;</li>
+<li><code>Hkeys key</code>: &#x83B7;&#x53D6;&#x54C8;&#x5E0C;&#x8868;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x952E;</li>
+<li><code>HgetALL key</code>: &#x83B7;&#x53D6;&#x54C8;&#x5E0C;&#x8868;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x952E;&#x503C;&#x5BF9;</li>
+<li><code>HincreBy key field n</code>: &#x5C06;&#x54C8;&#x5E0C;&#x8868;&#x4E2D;&#x7684;&#x67D0;&#x4E2A;&#x5B57;&#x6BB5; &#x81EA;&#x589E;n</li>
+<li><code>HincreByFloat key field n</code>: &#x5C06;&#x54C8;&#x5E0C;&#x8868;&#x4E2D;&#x7684;&#x67D0;&#x4E2A;&#x5B57;&#x6BB5;&#x81EA;&#x589E;float</li>
+</ul>
+<h2 id="jedis">Jedis</h2>
+<p><strong>Maven&#x4F9D;&#x8D56;</strong></p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>redis.clients<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>jedis<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>2.9.0<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>
+</code></pre>
+<p><strong>&#x793A;&#x4F8B;&#x4EE3;&#x7801;</strong></p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">RedisTest</span> </span>{
+    <span class="hljs-meta">@Test</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">test</span><span class="hljs-params">()</span> </span>{
+        String host = <span class="hljs-string">&quot;192.168.124.141&quot;</span>;
+        <span class="hljs-keyword">int</span> port = <span class="hljs-number">6379</span>;
+        Jedis jedis = <span class="hljs-keyword">new</span> Jedis(host, port);
+        System.out.println(jedis.ping());
+    }
+}
+</code></pre>
+<h2 id="&#x6301;&#x4E45;&#x5316;">&#x6301;&#x4E45;&#x5316;</h2>
+<p>&#x7531;&#x4E8E;&#x662F;&#x5185;&#x5B58;&#x578B;&#x6570;&#x636E;&#x5E93; &#x6240;&#x4EE5;&#x8BF4;&#x80AF;&#x5B9A;&#x8981;&#x9762;&#x4E34;&#x6570;&#x636E;&#x4E22;&#x5931;&#x7684;&#x95EE;&#x9898;... &#x6240;&#x4EE5;&#x8BF4;&#x5F53;&#x7136;&#x4E5F;&#x8981;&#x8003;&#x8651;&#x6301;&#x4E45;&#x5316;&#x95EE;&#x9898;... &#x770B;&#x770B;memcache&#x7684;&#x6392;&#x884C;&#x4F60;&#x5C31;&#x77E5;&#x9053;&#x6301;&#x4E45;&#x5316;&#x7684;&#x91CD;&#x8981;&#x6027;&#x4E86;... Redis&#x7684;&#x6301;&#x4E45;&#x5316;&#x652F;&#x6301;&#x4E24;&#x79CD;:</p>
+<ul>
+<li><code>RDB(redis database)</code>: &#x6309;&#x65F6;&#x5C06;&#x5185;&#x5B58;&#x7684;&#x5FEB;&#x7167;&#x5199;&#x5165;&#x78C1;&#x76D8;<ul>
+<li>Redis&#x4F1A;&#x5355;&#x72EC;&#x7684;&#x521B;&#x5EFA;(fork)&#x4E00;&#x4E2A;&#x5B50;&#x8FDB;&#x7A0B;&#x6765;&#x8FDB;&#x884C;&#x6301;&#x4E45;&#x5316;, &#x6574;&#x4E2A;&#x8FC7;&#x7A0B;&#x4E3B;&#x8FDB;&#x7A0B;&#x662F;&#x4E0D;&#x8FDB;&#x884C;&#x4EFB;&#x4F55;&#x64CD;&#x4F5C;&#x7684;, &#x8FD9;&#x6837;&#x786E;&#x4FDD;&#x4E86;&#x6781;&#x9AD8;&#x7684;&#x6027;&#x80FD;. &#x7F3A;&#x70B9;&#x5C31;&#x662F;==&#x6700;&#x540E;&#x4E00;&#x6B21;&#x6301;&#x4E45;&#x5316;&#x4E4B;&#x540E;&#x7684;&#x6570;&#x636E;&#x53EF;&#x80FD;&#x4F1A;&#x4E22;&#x5931;== &#x5982;&#x679C;&#x5BF9;&#x6570;&#x636E;&#x7684;&#x5B8C;&#x6574;&#x6027;&#x4E0D;&#x654F;&#x611F;, &#x5EFA;&#x8BAE;&#x4F7F;&#x7528;RDB.</li>
+<li>Linux&#x7A0B;&#x5E8F;&#x4E2D;, &#x5904;&#x4E8E;&#x6548;&#x7387;&#x7684;&#x8003;&#x8651;&#x5F15;&#x5165;&#x4E86;&quot;&#x5199;&#x65F6;&#x590D;&#x5236;&quot;&#x7684;&#x6280;&#x672F;, &#x4E00;&#x822C;&#x7236;&#x8FDB;&#x7A0B;&#x548C;&#x5B50;&#x8FDB;&#x7A0B;&#x4F1A;&#x5171;&#x7528;&#x4E00;&#x6BB5;&#x7269;&#x7406;&#x5185;&#x5B58;, &#x53EA;&#x6709;&#x5F53;&#x67D0;&#x4E2A;&#x8FDB;&#x7A0B;&#x53D1;&#x751F;&#x5199;&#x64CD;&#x4F5C;&#x7684;&#x65F6;&#x5019;, &#x624D;&#x4F1A;&#x590D;&#x5236;&#x4E00;&#x4EFD;&#x7ED9;&#x5176;&#x4ED6;&#x8FDB;&#x7A0B;... &#x6240;&#x4EE5;&#x8BF4;Redis&#x4E2D;&#x7684;fork&#x64CD;&#x4F5C;&#x662F;&#x975E;&#x5E38;&#x9AD8;&#x6548;&#x7684;.</li>
+</ul>
+</li>
+<li><code>AOF(append of file)</code>: &#x5229;&#x7528;&#x65E5;&#x5FD7;&#x8BB0;&#x5F55;&#x6BCF;&#x4E00;&#x4E2A;&#x5199;&#x64CD;&#x4F5C;<ul>
+<li>&#x5C06;Redis&#x6267;&#x884C;&#x8FC7;&#x7684;&#x6240;&#x6709;&#x5199;&#x64CD;&#x4F5C;&#x8BB0;&#x5F55;&#x4E0B;&#x6765;, &#x5728;&#x4E0B;&#x4E00;&#x6B21;Redis&#x670D;&#x52A1;&#x5668;&#x542F;&#x52A8;&#x7684;&#x65F6;&#x5019;&#x8BFB;&#x53D6;&#x8FD9;&#x4E2A;&#x65E5;&#x5FD7;&#x6587;&#x4EF6;, &#x7136;&#x540E;&#x4F9D;&#x6B21;&#x6267;&#x884C;&#x6240;&#x6709;&#x7684;&#x547D;&#x4EE4;, &#x5C31;&#x53EF;&#x4EE5;&#x6062;&#x590D;&#x5230;&#x4EE5;&#x524D;&#x7684;&#x72B6;&#x6001;&#x4E86;</li>
+</ul>
+</li>
+</ul>
+<h3 id="rdb">RDB</h3>
+<p>&#x5728;<code>redis.conf</code>&#x4E2D;&#x6709;&#x51E0;&#x4E2A;&#x5173;&#x4E8E;RDB&#x7684;&#x914D;&#x7F6E;:</p>
+<ul>
+<li><p><code>dbfilename dump.rdb</code>: &#x6301;&#x4E45;&#x5316;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x79F0;... &#x4E00;&#x822C;&#x4E0D;&#x505A;&#x4FEE;&#x6539;</p>
+</li>
+<li><p><code>dir ./</code>: &#x8868;&#x793A;RDB&#x7684;&#x6301;&#x4E45;&#x5316;&#x6587;&#x4EF6;<code>dump.rdb</code>&#x5B58;&#x50A8;&#x7684;&#x4F4D;&#x7F6E;... &#x4EE5;<code>redis-server</code>&#x8FD0;&#x884C;&#x7684;&#x6240;&#x5728;&#x76EE;&#x5F55;&#x4E3A;&#x76F8;&#x5BF9;&#x8DEF;&#x5F84;.</p>
+</li>
+<li><code>save 300 10</code>: &#x4EE3;&#x8868;300&#x79D2;&#x5185;&#x5982;&#x679C;&#x8FDB;&#x884C;&#x4E86;10&#x6B21;&#x5199;&#x64CD;&#x4F5C; &#x5C31;&#x4F1A;&#x8FDB;&#x884C;&#x4E00;&#x6B21;&#x6301;&#x4E45;&#x5316;&#x64CD;&#x4F5C;</li>
+</ul>
+<pre><code class="lang-ini">save 900 1                # 900&#x79D2;&#x5185;&#x4FEE;&#x6539;&#x4E86;&#x4E00;&#x6B21;
+save 300 10                # &#x6216;&#x8005; 300&#x79D2;&#x5185;&#x4FEE;&#x6539;&#x4E86;10&#x6B21;
+save 600 10000            # &#x6216;&#x8005; 600&#x79D2;&#x5185;&#x4FEE;&#x6539;&#x4E86;10000&#x6B21; &#x5747;&#x4F1A;&#x8FDB;&#x884C;&#x6301;&#x4E45;&#x5316;&#x64CD;&#x4F5C;
+</code></pre>
+<hr>
+<p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5728;<code>redis-cli</code>&#x5BA2;&#x6237;&#x7AEF;&#x4E2D;&#x8FDB;&#x884C;&#x5982;&#x4E0B;&#x7684;&#x51E0;&#x4E2A;RDB&#x64CD;&#x4F5C;:</p>
+<ul>
+<li><code>config get save</code>: &#x67E5;&#x770B;Reids&#x7684;&#x914D;&#x7F6E;&#x53C2;&#x6570;<code>save</code>&#x7684;&#x503C;</li>
+<li><code>save</code>: &#x8FD9;&#x4E2A;&#x547D;&#x4EE4;&#x53EF;&#x4EE5;&#x5F3A;&#x5236;&#x6267;&#x884C;&#x4E00;&#x6B21;RDB&#x6301;&#x4E45;&#x5316;&#x64CD;&#x4F5C;, &#x4F1A;&#x963B;&#x585E;&#x5176;&#x4ED6;&#x7EBF;&#x7A0B; &#x5F71;&#x54CD;&#x6548;&#x7387;</li>
+<li><code>bgsave</code>: &#x8FD9;&#x4E2A;&#x547D;&#x4EE4;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x4E00;&#x6B21;&#x521B;&#x5EFA;&#x5B50;&#x7EBF;&#x7A0B;&#x7684;&#x6301;&#x4E45;&#x5316;&#x64CD;&#x4F5C;, ==&#x548C;&#x81EA;&#x52A8;&#x6301;&#x4E45;&#x5316;&#x7684;&#x65B9;&#x5F0F;&#x76F8;&#x540C;==</li>
+</ul>
+<blockquote>
+<p>&#x63D0;&#x5230;&#x4E86;<code>dir ./</code> &#x6211;&#x4EEC;&#x5C31;&#x5E94;&#x8BE5;&#x8BF4;&#x4E00;&#x4E0B;, &#x76F8;&#x5BF9;&#x8DEF;&#x5F84;&#x7684;&#x95EE;&#x9898;.... &#x867D;&#x7136;<code>dir ./</code>&#x5199;&#x5728;&#x4E86;&#x914D;&#x7F6E;&#x6587;&#x4EF6;<code>redis.conf</code>&#x5F53;&#x4E2D;, &#x4F46;&#x662F;&#x8FD9;&#x4E2A;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x53EF;&#x4E0D;&#x80FD;&#x76F4;&#x63A5;&#x8FD0;&#x884C;, &#x4ED6;&#x53EA;&#x662F;<code>redis-server</code>&#x8FD0;&#x884C;&#x6240;&#x9700;&#x8981;&#x8BFB;&#x53D6;&#x7684;&#x4E00;&#x4E2A;&#x6587;&#x672C;&#x6587;&#x4EF6;&#x7F62;&#x4E86;, &#x6240;&#x4EE5;&#x8BF4;&#x76F8;&#x5BF9;&#x8DEF;&#x5F84;&#x4E0E;<code>redis-server</code>&#x6709;&#x5173;, &#x4E0E;<code>redis.conf</code>&#x65E0;&#x5173;, &#x800C;&#x5177;&#x4F53;&#x662F;&#x4EC0;&#x4E48;&#x8DEF;&#x5F84;, &#x8981;&#x6839;&#x636E;&#x4F60;&#x7684;<code>redis-server</code>&#x547D;&#x4EE4;&#x5728;&#x4EC0;&#x4E48;<code>&#x5DE5;&#x4F5C;&#x8DEF;&#x5F84;</code>&#x8FD0;&#x884C;, &#x4E5F;&#x5C31;&#x662F;<code>pwd</code>&#x67E5;&#x8BE2;&#x5230;&#x7684;&#x8DEF;&#x5F84;.</p>
+<p>&#x901A;&#x8FC7;&#x4E0A;&#x9762;&#x7684;&#x5206;&#x6790;, &#x6211;&#x4EEC;&#x73B0;&#x5728;&#x4E0D;&#x96BE;&#x7406;&#x89E3;&#x4E3A;&#x4EC0;&#x4E48;<strong>Java&#x4E2D;&#x7684;File&#x7C7B;&#x76F8;&#x5BF9;&#x8DEF;&#x5F84;&#x662F;&#x9879;&#x76EE;&#x6587;&#x4EF6;&#x5939;</strong> &#x56E0;&#x4E3A;<code>Java&#x865A;&#x62DF;&#x673A;</code>&#x7684;&#x9ED8;&#x8BA4;&#x542F;&#x52A8;&#x8DEF;&#x5F84;&#x5DF2;&#x7ECF;&#x88AB;Idea/Eclipse&#x7B49;&#x8F6F;&#x4EF6;&#x6539;&#x53D8;&#x6210;&#x4E3A;&#x4E86;&#x6211;&#x4EEC;&#x9879;&#x76EE;&#x6240;&#x5728;&#x7684;&#x8DEF;&#x5F84;....</p>
+</blockquote>
+<h3 id="aof">AOF</h3>
+<p>&#x9ED8;&#x8BA4;Reids&#x662F;&#x5173;&#x95ED;AOF&#x7684;, &#x9700;&#x8981;&#x6211;&#x4EEC;&#x624B;&#x52A8;&#x5728;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5F53;&#x4E2D;&#x5F00;&#x542F;:</p>
+<ul>
+<li><code>appendonly no</code>: &#x9700;&#x8981;&#x6211;&#x4EEC;&#x5C06;&#x8FD9;&#x4E00;&#x9879;&#x4FEE;&#x6539;&#x4E3A;<code>yes</code>, &#x624D;&#x80FD;&#x5F00;&#x542F;Redis&#x7684;AOF&#x529F;&#x80FD;</li>
+<li><code>appendfilename appendonly.aof</code>: AOP&#x7684;&#x6301;&#x4E45;&#x5316;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x79F0;... &#x4E00;&#x822C;&#x4E0D;&#x505A;&#x4FEE;&#x6539;</li>
+<li><code>dir ./</code>: &#x540C;&#x7406;, AOF&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4F4D;&#x7F6E;&#x4E5F;&#x662F;&#x901A;&#x8FC7;&#x8FD9;&#x4E2A;&#x53C2;&#x6570;&#x6765;&#x6307;&#x5B9A;&#x7684;...</li>
+<li><code>appendsync ?</code>:  &#x914D;&#x7F6E;AOF&#x8FDB;&#x884C;&#x6301;&#x4E45;&#x5316;&#x7684;&#x9891;&#x7387;, &#x53EF;&#x4EE5;&#x6709;&#x5982;&#x4E0B;&#x4E09;&#x4E2A;&#x53D6;&#x503C;<ul>
+<li><code>always</code>: &#x6BCF;&#x6709;&#x4E00;&#x4E2A;&#x5199;&#x64CD;&#x4F5C; &#x5C31;&#x8FDB;&#x884C;&#x4E00;&#x6B21;&#x6301;&#x4E45;&#x5316;</li>
+<li><code>everysec</code>: &#x6BCF;&#x79D2;&#x8FDB;&#x884C;&#x4E00;&#x6B21;&#x6301;&#x4E45;&#x5316;</li>
+<li><code>no</code>: &#x4EA4;&#x7ED9;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;... &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x81EA;&#x884C;&#x51B3;&#x5B9A;, &#x5F88;&#x602A;</li>
+</ul>
+</li>
+</ul>
+<h4 id="rdb&#x548C;aof&#x540C;&#x65F6;&#x5F00;&#x542F;-&#x542C;&#x8C01;&#x7684;">RDB&#x548C;AOF&#x540C;&#x65F6;&#x5F00;&#x542F; &#x542C;&#x8C01;&#x7684;?</h4>
+<p>&#x7B54;&#x6848;&#x662F;&#x542C;<code>AOF</code>&#x7684;, &#x56E0;&#x4E3A;<code>AOP</code>&#x603B;&#x662F;&#x4F1A;&#x4FDD;&#x5B58;&#x66F4;&#x591A;&#x7684;&#x4FE1;&#x606F;...</p>
+<h4 id="aop&#x6587;&#x4EF6;&#x9F13;&#x638C;&#x6062;&#x590D;">AOP&#x6587;&#x4EF6;&#x9F13;&#x638C;&#x6062;&#x590D;</h4>
+<p>&#x5982;&#x679C;&#x6211;&#x4EEC;AOF&#x7684;&#x6301;&#x4E45;&#x5316;&#x6587;&#x4EF6;<code>appendonly.aof</code>&#x51FA;&#x73B0;&#x4E86;&#x9519;&#x8BEF;&#x547D;&#x4EE4;&#x7B49;&#x60C5;&#x51B5; &#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E0B;&#x9762;&#x7684;&#x7A0B;&#x5E8F;&#x4FEE;&#x590D;:</p>
+<pre><code class="lang-linux">[root@localhost redis]$ /bin/reids-check-aof --fix ../conf/appendonly.aof
+</code></pre>
+<h4 id="&#x5F02;&#x5E38;-cant-open-the-append-only-file-permission-denied">&#x5F02;&#x5E38;: Can&apos;t open the append-only file Permission denied</h4>
+<p>&#x8FD9;&#x662F;&#x56E0;&#x4E3A;AOF&#x6301;&#x4E45;&#x5316;&#x751F;&#x6210;&#x7684;<code>appendonly.aof</code>&#x662F;<code>&#x53EA;&#x8BFB;</code>&#x7684;, &#x5F53;&#x6211;&#x4EEC;&#x7B2C;&#x4E8C;&#x6B21;&#x542F;&#x52A8;Redis&#x670D;&#x52A1;&#x5668;&#x7684;&#x4F1A;&#x8BFB;&#x53D6;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;... &#x5C31;&#x4F1A;&#x51FA;&#x73B0;&#x8FD9;&#x4E2A;&#x5F02;&#x5E38;&#x4E86;... &#x6240;&#x4EE5;&#x8BF4;&#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8981;==&#x9664;&#x53BB;appendonly&#x7684;&#x53EA;&#x8BFB;&#x6743;&#x9650;==&#x5373;&#x53EF;.</p>
+<h2 id="&#x4E3B;&#x4ECE;&#x590D;&#x5236;&#x8BFB;&#x5199;&#x5206;&#x79BB;">&#x4E3B;&#x4ECE;&#x590D;&#x5236;&amp;&#x8BFB;&#x5199;&#x5206;&#x79BB;</h2>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="oracle.html" class="navigation navigation-prev " aria-label="Previous page: oracle">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="nginx.html" class="navigation navigation-next " aria-label="Next page: nginx">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"redis","level":"1.2.2.3","depth":3,"next":{"title":"nginx","level":"1.2.2.4","depth":3,"path":"computer/service/nginx.md","ref":"computer/service/nginx.md","articles":[]},"previous":{"title":"oracle","level":"1.2.2.2","depth":3,"path":"computer/service/oracle.md","ref":"computer/service/oracle.md","articles":[]},"dir":"ltr"},"config":{"plugins":["code","back-to-top-button","splitter","page-treeview","expandable-chapters"],"root":".","styles":{"website":"assets/styles/website.less","ebook":"assets/styles/ebook.less","pdf":"assets/styles/pdf.less","mobi":"assets/styles/mobi.less","epub":"assets/styles/epub.less"},"pluginsConfig":{"page-treeview":{"copyright":"Copyright © aleen42","minHeaderCount":"1","minHeaderDeep":"1"},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"堕小烯","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"堕小烯笔记","language":"zh-hans","output.name":"site","links":{},"gitbook":"3.2.3","description":"摸了"},"file":{"path":"computer/service/redis.md","mtime":"2019-12-04T11:28:47.888Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-05T12:48:01.743Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
